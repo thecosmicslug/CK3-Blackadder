@@ -21,9 +21,8 @@
    - CLAN MACADDER, the most dangerous men ever to wear skirts in Europe.
    - CLAN MACANGUS, the second most dangerous men ever to wear skirts in Europe.
    - D'ARLING, highly-strung jobsworth.
-   - and also, BRIAN BLESSED as HENRY 'CURTMANTLE' II, the steaming great ox.
-   - 
-and also also, BALDRICK, the … uhh, hmm. Dogsbody?
+   - BRIAN BLESSED as HENRY 'CURTMANTLE' II, the steaming great ox.
+   - and also , BALDRICK, the … uhh, hmm. Dogsbody?
 
 Each character is easily identified with the "Blackadder" trait.
 
