@@ -1,0 +1,18 @@
+on_game_start_after_lobby = {
+	effect = {
+			if = { # BLACKADDER EVENTS
+			limit = {
+				character:TBA_plantagenet_blackadder ?= { is_alive = yes }
+			}
+			character:TBA_plantagenet_blackadder ?= {
+				trigger_event = {
+					id = tba_bookmark.blackadder 
+				}
+			}
+		}
+		
+	
+
+	
+	}
+}

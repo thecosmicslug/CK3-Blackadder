@@ -1,0 +1,20 @@
+house_tbawhiteadder = {
+	name = "dynn_tbawhiteadder"
+	dynasty = dynasty_tbablackadder
+}
+
+house_tbabastardadder = {
+		name = "dynn_tbabastardadder"
+		dynasty = dynasty_tbablackadder
+}
+
+house_tbapercy = {
+	name = "dynn_tbapercy"
+	dynasty = dynasty_tbadarling
+}
+
+house_tbaescalosa = {
+		name = "dynn_tbaescalosa"
+		dynasty = 442
+}
+

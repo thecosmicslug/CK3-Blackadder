@@ -1,0 +1,1450 @@
+# PLAYABLE BLACKADDER
+
+TBA_edmund_i_blackadder = {
+	name = "Edmund"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	diplomacy = 5
+	martial = 7
+	stewardship = 4
+	intrigue = 4
+	learning = 0
+	trait = cynical
+	trait = callous
+	trait = sadistic
+	trait = lisping
+	trait = education_martial_1
+		
+		835.1.6 = {
+	    birth = yes
+		}
+		
+		872.2.20 = {
+		death = { death_reason = death_gout_ridden }
+		}
+}
+
+TBA_duc_blackadder = { # BLACKADDER 1066 - EDMUND III
+	name = "Edmund"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edbert_blackadder
+	sexuality = bisexual
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 2
+	learning = 1
+	trait = tba_blackadder_trait
+	trait = cynical
+	trait = reckles
+	trait = arrogant 
+	trait = wrathful
+	trait = lisping
+	trait = twin
+	trait = education_martial_1
+		
+		1034.1.6 = {
+	    birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+		}
+		
+		1050.6.9 = {
+	    add_spouse = TBA_georgina_blackadder
+		}
+		
+		1060.4.20 = {
+	    trait = adulterer
+		give_nickname = nick_the_lecher
+		}
+		
+		1066.10.14 = {
+		trait = murderer
+		give_nickname = nick_the_betrayer
+		}
+		
+		1097 = {
+		death = { death_reason = death_old_age }
+		}
+}
+
+TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart 
+	name = "Edmund"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	father = 183010
+	mother = TBA_lady_blackadder
+	sexuality = heterosexual
+	diplomacy = 3
+	martial = 2
+	stewardship = 2
+	intrigue = 1
+	learning = 2
+	trait = tba_blackadder_trait
+	trait = cynical
+	trait = arrogant
+	trait = craven 
+	trait = reckless
+	trait = lisping
+	trait = wild_oat
+	trait = education_intrigue_2
+
+	
+	1155.1.6 = {
+	    birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+        1174.11.30 = {
+		set_relation_lover = character:TBA_bob
+		add_unpressed_claim = title:d_lothian
+		add_unpressed_claim = title:c_lothian
+		add_pressed_claim = title:c_surrey
+			remove_claim = title:d_normandy
+			remove_claim = title:c_saumur
+			remove_claim = title:c_anjou
+			remove_claim = title:c_tourraine 
+		give_nickname = nick_chickenheart
+			create_betrothal = character:TBA_infanta
+	}
+	1190.6.10 = {
+	    death = { death_reason = death_accident_drowning }
+	}
+}
+
+# FILLER BLACKADDERS
+
+TBA_blackaddercus_blackadder = {
+	name = "Blackaddercus"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "hellenic_pagan"
+	culture = "roman"
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		101.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_culture_wall
+		}
+		
+		142.12.25 = {
+	    death = {death_reason = death_vanished }
+		}
+}
+
+TBA_edmund_ii_blackadder = {
+	name = "Edmund"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edmund_i_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		867.1.6 = {
+	    birth = yes
+		}
+		
+		918.8.7 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+
+TBA_aetmund_blackadder = {
+	name = "Æthmund"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edmund_ii_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		894.1.6 = {
+	    birth = yes
+		}
+		
+		963.7.11 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_edric_blackadder = {
+	name = "Edric"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_aetmund_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		913.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_elder
+		}
+		
+		1033.9.11 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_eunuch_blackadder = {
+	name = "Edric"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edric_blackadder
+	trait = lisping
+	
+		987.1.6 = {
+	    birth = yes
+		trait = eunuch
+		give_nickname = nick_the_not_so_elder
+		}
+		
+		1000.12.25 = {
+	    death = {death_reason = death_ill}
+		trait = pneumonic
+		}
+}
+
+TBA_edgar_blackadder = {
+	name = "Edgar"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_aetmund_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+	trait = hunchbacked
+		932.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_hunchback
+		}
+		989.12.25 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_edwynth_blackadder = {
+	name = "Edwynth"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edgar_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		967.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_joyless
+		}
+
+		1010.3.4 = {
+	    death = { death_reason = death_natural_causes }
+		}
+}
+
+TBA_edmond_blackadder = {
+	name = "Edmond"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "adamites"
+	culture = "anglo_saxon"
+	father = TBA_edwynth_blackadder
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+		
+		985.1.6 = {
+	    birth = yes
+		}
+
+		1004.7.12 = {
+		trait = pneumonic	
+	    death = { death_reason = death_ill }
+		}
+}
+
+TBA_edbert_blackadder = {
+	name = "Edbert"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edwynth_blackadder
+	trait = lisping
+		
+		995.1.6 = {
+	    birth = yes
+		}
+
+		1055.12.25 = {
+	    death = { death_reason = death_old_age }
+		}
+}
+
+TBA_chiswick_blackadder = {
+	name = "Chiswick"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbamacadder
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_aetmund_blackadder
+	trait = eccentric
+	trait = wrathful
+	trait = arrogant
+	trait = stuttering
+	trait = lunatic_genetic
+		
+		962.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_insane
+		}
+		
+		1061.12.25 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_edna_blackadder = {
+	name = "Edna"
+	female = yes
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_edbert_blackadder
+	diplomacy = 7
+	martial = 2
+	stewardship = 7
+	intrigue = 7
+	learning = 5
+	trait = cynical
+	trait = craven
+	trait = arrogant
+	trait = lisping
+	trait = twin
+	trait = education_diplomacy_1
+		
+		1034.1.6 = {
+	    birth = yes
+		}
+	
+        1066.10.14 = {
+		trait = devoted
+		give_nickname = nick_the_chaste
+		}
+		
+		1100.1.6 = {
+	    death = { death_reason = death_old_age }
+		}
+}
+
+TBA_snou_blackadder = {
+	name = "Snou"
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	mother = TBA_edna_blackadder
+	trait = lisping
+		
+		1070.1.6 = {
+	    birth = yes
+		trait = bastard
+		}
+	
+        1085.12.25 = {
+	    death = { death_reason = death_vanished }
+		}
+}
+
+TBA_bastard_filbert_blackadder = { 
+	name = "Filbert"
+	dynasty = dynasty_tbablackadder
+	dynasty_house = house_tbabastardadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_duc_blackadder
+	trait = lisping
+	trait = cynical
+	trait = craven
+	trait = arrogant
+
+		1060.4.20 = {
+	    birth = yes
+		trait = bastard 
+		give_nickname = nick_the_bastard
+	}
+		1092.9.11 = {
+	    death = yes
+		death = yes
+		}
+}
+
+TBA_bastard_filip_blackadder = { 
+	name = "Filip"
+	dynasty = dynasty_tbablackadder
+	dynasty_house = house_tbabastardadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_bastard_filbert_blackadder
+	trait = lisping
+	trait = cynical
+	trait = craven
+	trait = arrogant
+
+		1087.1.6 = {
+	    birth = yes
+	}
+		1141.9.11 = {
+	    death = yes
+		death = yes
+		}
+}
+
+TBA_bastard_fiona_blackadder = { 
+	name = "Fiona"
+	female = yes
+	dynasty = dynasty_tbablackadder
+	dynasty_house = house_tbabastardadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_bastard_filip_blackadder
+	trait = lisping
+	trait = cynical
+	trait = craven
+	trait = arrogant
+
+		1120.1.6 = {
+	    birth = yes
+	}
+		1190.9.11 = {
+	    death = yes
+		death = yes
+		}
+}
+
+TBA_georgina_blackadder = {
+	name = "Georgina"
+	female = yes
+	dna = TBA_hugh
+	religion = "catholic"
+	culture = "french"
+	sexuality = "bisexual"
+		1025.6.11 = {
+	    birth = yes
+	}
+		1084.12.2 = {
+		trait = gout_ridden
+	    death = { death_reason = death_gout_ridden }
+		}
+}
+
+TBA_ed_blackadder = { 
+	name = "Ed'"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_duc_blackadder
+	mother = TBA_georgina_blackadder
+	trait = lisping
+		1051.1.6 = {
+	    birth = yes
+	}
+		1057.9.11 = {
+		trait = ill
+	    death = { death_reason = death_ill }
+		}
+}
+
+TBA_edd_blackadder = { 
+	name = "Edd'"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_duc_blackadder
+	mother = TBA_georgina_blackadder
+	trait = lisping
+		1063.1.6 = {
+	    birth = yes
+	}
+		1065.12.20 = {
+		trait = measles
+	    death = { death_reason = death_ill }
+		}
+}
+
+TBA_eddie_blackadder = { 
+	name = "Eddie"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_duc_blackadder
+	mother = TBA_georgina_blackadder
+	trait = lisping
+		1064.1.6 = {
+	    birth = yes
+	}
+		1064.1.6 = {
+		trait = sickly
+		death = yes
+	    death = { death_reason = death_ill }
+		}
+}
+
+TBA_edwin_blackadder = { 
+	name = "Edwin"
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_duc_blackadder
+	mother = TBA_georgina_blackadder
+	trait = lisping
+	trait = cynical
+	trait = craven
+	trait = arrogant
+		
+		1067.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_dry
+	}
+		1122.2.7 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_eddard_blackadder = { 
+	name = "Eddard"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_edwin_blackadder
+	trait = lisping
+	trait = cynical
+	trait = craven
+	trait = arrogant
+		
+		1102.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_headless
+	}
+		1174.11.30 = {
+		death = { death_reason = death_execution_beheading }  
+		killer = 204500
+		}
+}
+
+TBA_eden_whiteadder = { 
+	name = "Eden"
+	female = yes
+	dynasty = dynasty_tbablackadder
+	dynasty_house = house_tbawhiteadder 
+	religion = "catholic"
+	culture = "english"
+	father = TBA_edwin_blackadder
+	trait = chaste
+	trait = zealous
+	trait = wrathful
+	trait = devoted
+		
+		1109.1.6 = {
+	    birth = yes
+	}
+		1180.12.25 = {
+	    death = {death_reason = death_natural_causes }
+		}
+}
+
+TBA_deadkid_blackadder = { 
+	name = "Ed-sumthin'"
+	dna = TBA_blackadder
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	father = TBA_eddard_blackadder
+	trait = lisping
+		
+		1132.1.6 = {
+	    birth = yes
+	}
+		1135.12.25 = {
+		trait = pneumonic
+	    death = { death_reason = death_ill }
+		}
+}
+
+TBA_lady_blackadder = {
+	name = "Gertrude"
+	female = yes
+	sexuality = homosexual
+	dynasty = dynasty_tbablackadder
+	religion = "catholic"
+	culture = "english"
+	diplomacy = 2
+	martial = 5
+	stewardship = 1
+	intrigue = 8
+	learning = 3
+	trait = tba_blackadder_trait
+	trait = patient
+	trait = deceitful
+	trait = diligent
+	trait = witch
+	trait = education_intrigue_3
+	father = TBA_eddard_blackadder
+		
+		1127.1.6 = {
+	    birth = yes
+		give_nickname = nick_the_devil
+		}
+		1190.6.10 = {
+	    death = yes
+		}
+}
+
+TBA_lady_whiteadder = {
+	name = "Miriam"
+	female = yes
+	dynasty_house = house_tbawhiteadder 
+	religion = "catholic"
+	culture = "english"
+	diplomacy = 3
+	martial = 1
+	stewardship = 3
+	intrigue = 2
+	learning = 5
+	trait = tba_blackadder_trait
+	trait = chaste
+	trait = zealous
+	trait = wrathful
+	trait = education_learning_2
+	trait = devoted
+	mother = TBA_eden_whiteadder
+		
+		1141.5.18 = {
+	    birth = yes
+		give_nickname = nick_lacks_laughs
+	}
+
+		1190.6.10 = {
+	    death = yes
+		}
+}
+
+# BALDRICK
+
+TBA_baldrick_I = {
+	name = "Baldrick"
+	dna = TBA_baldrick
+	religion = "catholic"
+	culture = "welsh"
+	sexuality = asexual
+	diplomacy = 2
+	martial = 0
+	stewardship = 2
+	intrigue = 9
+	learning = 12
+	trait = tba_blackadder_trait
+	trait = intellect_good_1
+	trait = eccentric
+	trait = trusting
+	trait = ambitious 
+	trait = loyal
+	trait = education_learning_1
+
+	837.8.15 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	867.1.1 = {
+                set_relation_best_friend = {target = character:TBA_edmund_i_blackadder}
+	} 
+
+	867.1.1 = {
+	employer = TBA_edmund_i_blackadder
+	give_council_position = councillor_steward
+	} 
+
+	912.12.25 = {
+	    death = {death_reason = death_old_age}
+	}
+}
+
+TBA_baldrick_II = {
+	name = "Baldrick"
+	dna = TBA_baldrick
+	religion = "catholic"
+	culture = "anglo_saxon"
+	father = TBA_baldrick_I
+	sexuality = asexual
+	diplomacy = 1
+	martial = 3
+	stewardship = 5
+	intrigue = 5
+	learning = 10
+	trait = tba_blackadder_trait
+	trait = intellect_bad_2
+	trait = eccentric
+	trait = trusting
+	trait = lazy 
+	trait = disloyal
+	trait = lifestyle_wayfarer
+	trait = education_diplomacy_1
+	trait = education_martial_prowess_1
+
+	1038.8.15 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1055.12.25 = {
+                set_relation_best_friend = {target = character:TBA_duc_blackadder}
+	} 
+
+	1055.12.25 = {
+	employer = TBA_duc_blackadder
+	give_council_position = councillor_steward
+	} 
+
+	1069.5.19 = {
+	    death = { death_reason = death_battle }
+	}
+}
+
+TBA_baldrick_III = {
+	name = "Baldrick"
+	dna = TBA_baldrick
+	religion = "catholic"
+	culture = "english"
+	father = TBA_baldrick_II
+	sexuality = asexual
+	diplomacy = 1
+	martial = 3
+	stewardship = 5
+	intrigue = 5
+	learning = 10
+	trait = tba_blackadder_trait
+	trait = intellect_bad_3
+	trait = eccentric
+	trait = trusting
+	trait = content 
+	trait = loyal
+	trait = lifestyle_gardener
+	trait = education_intrigue_1
+	trait = education_martial_prowess_1
+
+	1146.8.15 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1174.11.30 = {
+                set_relation_best_friend = {target = character:TBA_plantagenet_blackadder}
+	} 
+
+	1178.1.1 = {
+	employer = TBA_plantagenet_blackadder
+	give_council_position = councillor_steward
+	} 
+
+	1188.6.10 = {
+		death = { death_reason = death_battle }
+	}
+}
+
+# PERCY & D'ARLING
+
+TBA_darling_ancestor_1 = {
+	name = "Percy Marie-Kévin"
+	dna = TBA_percy
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	996.11.18 = {
+		birth = yes	
+	}
+		1016.1.5 = {
+		add_pressed_claim = c_dijon 
+		}
+	1052.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+TBA_darling_ancestor_2 = {
+	name = "Kévanth"
+	dna = TBA_percy
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+	father = TBA_darling_ancestor_1
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+	trait = twin
+
+	1023.11.18 = {
+		birth = yes
+	}
+	1085.3.23 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+TBA_darling_ancestor_3 = {
+	name = "Karlin"
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+	father = TBA_darling_ancestor_2
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1064.11.18 = {
+		birth = yes
+	}
+	1115.12.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+TBA_darling_ancestor_4 = {
+	name = "Falin"
+	dna = TBA_percy
+	female = yes
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+	father = TBA_darling_ancestor_3
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1097.11.18 = {
+		birth = yes
+	}
+	1153.12.25 = {
+		death = yes
+	}
+}
+
+TBA_darling_1 = {
+	name = "Kévan"
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+	father = TBA_darling_ancestor_3
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1099.11.18 = {
+		birth = yes
+	}
+	1156.12.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+TBA_darling_2 = {
+	name = "Kévin"
+	dynasty = dynasty_tbadarling
+	religion = "catholic"
+	culture = "french"
+	mother = TBA_darling_ancestor_4
+	sexuality = homosexual
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+	trait = tba_blackadder_trait
+
+	1141.11.18 = {
+		birth = yes
+	}
+	
+	1180.6.10 = {
+		death = yes
+	}
+}
+
+TBA_percy_ancestor_1 = {
+	name = "Parsifal"
+	dna = TBA_percy
+	dynasty_house = house_tbapercy
+	religion = "catholic"
+	culture = "norman"
+	father = TBA_darling_ancestor_1
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+	trait = twin
+
+	1029.11.18 = {
+		birth = yes
+		add_pressed_claim = c_dijon 
+	}
+		1055.12.25 = {
+		employer = TBA_duc_blackadder
+		
+		give_council_position = councillor_steward
+		} 
+	
+	1073.12.25 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+TBA_percy_ancestor_2 = {
+	name = "Percignor"
+	dna = TBA_percy
+	dynasty_house = house_tbapercy
+	religion = "catholic"
+	culture = "norman"
+	father = TBA_percy_ancestor_1
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1044.11.18 = {
+		birth = yes
+	}
+	
+	1066.1.5 = {
+		add_pressed_claim = title:c_northumberland
+	}
+	1100.1.1 = {
+		trait = gout_ridden
+		death = { death_reason = death_gout_ridden }
+	}
+}
+
+
+TBA_percy_ancestor_3 = {
+	name = "Percifores"
+	dna = TBA_percy
+	dynasty_house = house_tbapercy
+	religion = "catholic"
+	culture = "norman"
+	father = TBA_percy_ancestor_2
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1087.11.18 = {
+		birth = yes
+		add_pressed_claim = title:c_northumberland
+	}
+	1157.1.1 = {
+		death = { death_reason = death_old_age }
+	}
+}
+
+TBA_percy_1 = {
+	name = "Percival"
+	dna = TBA_percy
+	dynasty_house = house_tbapercy
+	religion = "catholic"
+	culture = "norman"
+	father = TBA_percy_ancestor_3
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+
+	1131.11.18 = {
+		birth = yes
+	}
+	1157.1.1 = {
+		add_pressed_claim = title:c_northumberland
+	}
+	1170.6.10 = {
+		death = yes
+	}
+}
+
+TBA_percy_2 = {
+	name = "Percy"
+	dna = TBA_percy
+	dynasty_house = house_tbapercy
+	religion = "catholic"
+	culture = "norman"
+	father = TBA_percy_1
+	sexuality = heterosexual
+	diplomacy = 3
+	martial = 2
+	stewardship = 5
+	intrigue = 1
+	learning = 2
+	trait = tba_blackadder_trait
+    trait = trusting
+	trait = arrogant
+	trait = stubborn
+	trait = intellect_bad_1
+	trait = education_diplomacy_2
+
+	1156.11.18 = {
+		birth = yes
+	}
+	1174.11.30 = {
+		add_pressed_claim = title:c_northumberland
+                set_relation_friend = {target = character:TBA_plantagenet_blackadder}
+	}
+	1178.1.1 = {
+	employer = TBA_plantagenet_blackadder
+	give_council_position = councillor_chancellor
+	} 
+	1190.6.10 = {
+		death = { death_reason = death_accident_drowning } 
+	}
+}
+
+# EVERYONE ELSE
+
+TBA_flashheart = {
+	name = "Rikard"
+	dna = TBA_flashheart
+	dynasty = dynasty_tbaflashheart
+	religion = "catholic"
+	culture = "norman"
+	sexuality = bisexual
+	diplomacy = 4
+	martial = 10
+	stewardship = 7
+	intrigue = 9
+	learning = 2
+	trait = tba_blackadder_trait
+   	trait = lustful
+	trait = impatient
+	trait = brave
+	trait = eccentric
+	trait = fecund
+	trait = beauty_good_2
+	trait = seducer
+	trait = gallivanter
+	trait = reckless
+	trait = education_martial_3
+
+	1158.3.7 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+		give_nickname = nick_the_flash
+	}
+
+	1178.1.1 = {
+        set_relation_friend = {target = character:TBA_plantagenet_blackadder}
+		add_trait = lifestyle_blademaster
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = 50
+			}
+		}
+		add_trait = lifestyle_reveler
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_reveler
+				value = 50
+			}
+		}
+	  }
+	1190.6.10 = {
+		death = yes
+	}	
+}
+
+
+TBA_melchy = {
+	name = "Melchett"
+	dna = TBA_melchy
+	dynasty = dynasty_tbamelchett
+	religion = "catholic"
+	culture = "norman"
+	sexuality = bisexual
+	diplomacy = 5
+	martial = 2
+	stewardship = 9
+	intrigue = 5
+	learning = 12
+	trait = tba_blackadder_trait
+    trait = ambitious
+	trait = arrogant
+	trait = patient
+	trait = education_learning_3
+
+	1157.8.24 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+		give_nickname = nick_melchy
+	}
+
+	1178.1.1 = {
+        set_relation_friend = {target = character:204500}
+		set_relation_rival = {target = character:TBA_plantagenet_blackadder}
+		employer = 204500
+		give_council_position = councillor_court_chaplain
+		add_trait = lifestyle_reveler
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_reveler
+				value = 100
+			}
+		}
+	}
+	1190.6.10 = {
+		death = yes
+	}
+}
+
+
+TBA_bob = {
+	name = "Kate"
+	dna = TBA_bob
+	female = yes
+	sexuality = bisexual
+	father = TBA_bob_father
+	dynasty = dynasty_tbaparkhurst
+	religion = "catholic"
+	culture = "vlach"
+	diplomacy = 9
+	martial = 7
+	stewardship = 12
+	intrigue = 5
+	learning = 7
+	trait = tba_blackadder_trait
+    trait = ambitious
+	trait = deceitful
+	trait = patient
+	trait = eccentric
+	trait = physique_good_2
+	trait = logistician 
+	trait = education_stewardship_3
+
+	1160.6.27 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+		give_nickname = nick_bob
+		add_trait = lifestyle_reveler
+		effect = {
+			add_trait_xp = {
+				trait = lifestyle_reveler
+				value = 50
+			}
+		}
+	}
+
+	1178.1.1 = {
+		set_relation_lover = character:TBA_plantagenet_blackadder
+		set_relation_lover = character:TBA_flashheart
+		set_relation_friend = character:TBA_flashheart
+		employer = TBA_flashheart
+	}
+	
+	1190.6.10 = {
+		death = { death_reason = death_accident_drowning } 
+	}
+}
+
+TBA_bob_father = {
+	name = "Father of Kate"
+	dna = TBA_bob
+	dynasty = dynasty_tbaparkhurst 
+	religion = "catholic"
+	culture = "english"
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 1
+	learning = 4
+    trait = lustful
+	trait = arrogant
+	trait = stubborn
+	trait = education_stewardship_1
+
+	1105.6.27 = {
+		birth = yes
+	}
+	
+		1178.1.1 = {
+		employer = TBA_flashheart
+	}
+	
+	1190.6.10 = {
+		death = {death_reason = death_old_age}
+	}
+}
+
+
+TBA_ludwig = {
+	name = "Ludwig"
+	dna = TBA_hugh
+	mother = 7374
+	dynasty_house = house_welf
+	religion = "catholic"
+	culture = "bavarian"
+	sexuality = bisexual
+	diplomacy = 8
+	martial = 9
+	stewardship = 5
+	intrigue = 14
+	learning = 5
+	trait = tba_blackadder_trait
+   	trait = sadistic
+	trait = wrathful
+	trait = paranoid
+	trait = eccentric
+	trait = torturer
+	trait = lisping
+	trait = lunatic_genetic
+	trait = education_intrigue_5
+
+	1159.6.11 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+		give_nickname = nick_the_indestructible
+		add_unpressed_claim = title:k_england
+		add_trait = scarred
+		effect = {
+			add_trait_xp = {
+				trait = scarred
+				value = 100
+			}
+		}
+	}
+
+	1178.1.1 = {
+        set_relation_rival = {target = character:TBA_plantagenet_blackadder}
+		set_relation_nemesis = {target = character:204500}
+		}
+	1190.6.10 = {
+		death = { death_reason = death_sacrificed } 
+	}
+}	
+
+
+TBA_eideard_macadder = {
+	name = "Eideard"
+	dna = TBA_macadder
+	dynasty = dynasty_tbamacadder
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_chiswick_blackadder
+	diplomacy = 2
+	martial = 12
+	stewardship = 4
+	intrigue = 1
+	learning = 3
+	trait = vengeful
+	trait = stubborn
+	trait = wrathful
+	trait = stuttering
+	trait = physique_good_2
+	trait = education_martial_3
+	trait = reckles
+	trait = education_martial_prowess_2
+		
+		1029.1.6 = {
+	    birth = yes
+		employer = 18765
+		}
+			
+		1100.4.2 = {
+	    death = {death_reason = death_old_age }
+		}
+}
+
+TBA_adder_macadder = {
+	name = "Adder"
+	dna = TBA_macadder
+	dynasty = dynasty_tbamacadder
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_eideard_macadder
+	trait = vengeful
+	trait = stubborn
+	trait = wrathful
+	trait = stuttering
+		
+		1123.1.6 = {
+	    birth = yes
+		add_pressed_claim = title:c_outer_hebrides
+		set_relation_rival = {target = character:TBA_angus_macangus}
+		}
+			
+		1171.12.24 = {
+	    death = {death_reason = death_old_age}
+		}
+}
+
+TBA_eadbhard_macadder = {
+	name = "Eadbhárd"
+	dna = TBA_macadder
+	dynasty = dynasty_tbamacadder
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_eideard_macadder
+	trait = vengeful
+	trait = stubborn
+	trait = wrathful
+	trait = stuttering
+	trait = infertile
+	trait = wheezing
+		
+		1101.1.6 = {
+	    birth = yes
+		}
+			
+		1124.12.24 = {
+	    death = {death_reason = death_old_age}
+		}
+}
+
+TBA_euan_macadder = {
+	name = "Euan"
+	dna = TBA_macadder
+	dynasty = dynasty_tbamacadder
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_adder_macadder
+	diplomacy = 5
+	martial = 10
+	stewardship = 2
+	intrigue = 0
+	learning = 2
+	trait = tba_blackadder_trait
+	trait = vengeful
+	trait = stubborn
+	trait = wrathful
+	trait = stuttering
+	trait = physique_good_2
+	trait = intellect_bad_1
+	trait = education_martial_2
+	trait = reckles
+	trait = education_martial_prowess_3
+		
+		1152.1.6 = {
+	    birth = yes
+		add_pressed_claim = title:c_outer_hebrides
+		add_pressed_claim = title:c_argyll
+		add_unpressed_claim = title:k_england
+		set_relation_rival = {target = character:TBA_dougal_macangus}
+		}
+			
+		1190.6.10 = {
+	    death = yes
+		}
+}
+
+TBA_angus_macangus = {
+	name = "Angus"
+	dna = TBA_macangus
+	dynasty = dynasty_tbamacangus
+	religion = "insular_celtic"
+	culture = "gaelic"
+	trait = lustful
+	trait = stubborn
+	trait = wrathful
+		
+		1138.1.27 = {
+	    birth = yes
+		add_pressed_claim = title:c_argyll
+		}
+			
+		1178.12.3 = {
+	    death = {death_reason = death_old_age}
+		}
+}
+
+TBA_dougal_macangus = {
+	name = "Dougal"
+	dna = TBA_macangus
+	dynasty = dynasty_tbamacangus
+	religion = "insular_celtic"
+	culture = "gaelic"
+	father = TBA_angus_macangus
+	trait = lustful
+	trait = stubborn
+	trait = wrathful
+		
+		1155.1.27 = {
+	    birth = yes
+		}
+			
+		1190.6.10 = {
+	    death = yes
+		}
+}
+
+TBA_infanta = {
+	name = "Maria"
+	female = yes
+	dna = TBA_infanta
+	dynasty_house = house_tbaescalosa
+	religion = "catholic"
+	culture = "basque"
+	father = 206510
+	trait = tba_blackadder_trait
+	trait = lustful
+	trait = gregarious
+	trait = honest
+	trait = beauty_bad_1
+		1141.5.18 = {
+	    birth = yes
+		}
+		1190.6.10 = {
+	    death = yes
+		}
+}
+
+
+
+# HENRY IN THE NAUGHTY CORNER
+
+204500 = {
+	name = "Henry" # Henry II
+	dna = TBA_brian_blessed
+	1133.3.5 = {
+		birth = "1133.3.5"
+	}
+}

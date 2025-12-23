@@ -1,0 +1,17 @@
+tba_s1 = {
+	music = "file:/music/tba_soundtrack/tba_s1.wav"
+	name = "tba_s1"
+	can_be_interrupted = yes
+}
+
+mx_cue_blackadder = { 	
+	music = "file:/music/tba_soundtrack/tba_s1.wav"
+	pause_factor = 25
+}
+
+tba_backandforth = {
+	music = "file:/music/tba_soundtrack/tba_backandforth.wav"
+	name = "tba_backandforth"
+	mood = no
+	can_be_interrupted = yes
+}

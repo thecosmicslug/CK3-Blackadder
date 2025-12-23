@@ -1,0 +1,37 @@
+dynasty_tbablackadder = {
+	name = "dynn_tbablackadder"
+	culture = "anglo_saxon"
+	motto = "dynn_motto_tbablackadder"
+}
+
+dynasty_tbadarling = {
+	prefix = "dynnp_tbad_"
+	name = "dynn_tbadarling"
+	culture = "french"
+}
+
+dynasty_tbaflashheart = {
+	name = "dynn_tbaflashheart"
+	culture = "english"
+	motto = "dynn_motto_tbaflashheart"
+}
+
+dynasty_tbaparkhurst = {
+	name = "dynn_tbaparkhurst"
+	culture = "vlach"
+}
+
+dynasty_tbamelchett = {
+	name = "dynn_tbamelchett"
+	culture = "english"
+}
+
+dynasty_tbamacangus = {
+		name = "dynn_tbamacangus"
+		culture = "gaelic"
+}
+
+dynasty_tbamacadder = {
+		name = "dynn_tbamacadder"
+		culture = "gaelic"
+}

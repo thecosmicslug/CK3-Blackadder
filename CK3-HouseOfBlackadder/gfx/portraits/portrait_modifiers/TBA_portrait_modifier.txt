@@ -1,0 +1,261 @@
+﻿blackadder_portrait_modifier = {
+	
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+			}
+ 		accessory = {
+                mode = add
+                gene = hairstyles
+                template = ep2_hairstyles_western
+                type = male_hair_ep2_western_01
+            	}
+	        accessory = {
+                mode = add
+                gene = beards
+                template = beards
+                accessory = no_beard
+				value = 0.0
+            	}
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 0.5
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:TBA_plantagenet_blackadder
+                this = character:TBA_plantagenet_blackadder
+            }
+        }
+    }
+}
+
+duc_blackadder_portrait_modifier = {
+	
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+			}
+ 		accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_byzantine_02
+            	}
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_western_05
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:TBA_duc_blackadder
+                this = character:TBA_duc_blackadder
+            }
+        }
+    }
+}
+
+percy_portrait_modifier = {
+    
+	usage = game
+	portrait_modifier = {
+        dna_modifiers = {
+            	accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                accessory = male_hair_fp2_iberian_christian_02
+            	}
+				accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 1
+            }
+	        accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                accessory = no_beard
+            	}
+
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:TBA_percy_2
+                this = character:TBA_percy_2 
+            }
+        }
+    }
+}
+
+baldrick_portrait_modifier = {
+    
+	usage = game
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+		}
+ 		accessory = {
+                mode = add
+                gene = hairstyles
+                template = ep2_hairstyles_western 
+                type = m_hair_ep2_western_02
+            	}
+           	accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                accessory = male_beard_western_01
+            	}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:TBA_baldrick_III
+                this = character:TBA_baldrick_III
+            }
+        }
+    }
+}
+
+
+flashheart_portrait_modifier = {
+    
+	usage = game
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+		}
+                accessory = {
+                mode = add
+                gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_mena_02
+                }
+           	accessory = {
+                mode = add
+                gene = beards
+                template = fp2_beards_straight
+                accessory = male_beard_fp2_iberian_christian_04
+            	}
+
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:TBA_flashheart
+                this = character:TBA_flashheart
+            }
+        }
+    }
+}
+
+henry_portrait_modifier = {
+    
+	usage = game
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+		}
+                accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                accessory = male_hair_fp2_iberian_muslim_01
+                }
+           	accessory = {
+                mode = add
+                gene = beards
+                template = all_beards
+                accessory = male_beard_western_06
+            	}
+
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:204500
+                this = character:204500
+            }
+        }
+    }
+
+}
+
+ludwig_portrait_modifier = {
+	
+	portrait_modifier = {
+        dna_modifiers = {
+            morph = {
+		mode = replace
+		gene = gene_balding_hair_effect
+		template = no_baldness
+		value = 1
+			}
+ 		accessory = {
+                mode = add
+                gene = hairstyles
+                template = ep3_byzantine_hairstyle
+                accessory = m_hair_ep3_byzantine_01
+            	}
+	        accessory = {
+                mode = add
+                gene = beards
+                template = beards
+                accessory = no_beard
+		value = 0.0
+            	}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:TBA_ludwig
+                this = character:TBA_ludwig
+            }
+        }
+    }
+}

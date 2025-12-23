@@ -1,0 +1,159 @@
+bm_1178_chickenheart = {
+	start_date = 1178.10.1
+	is_playable = yes
+	recommended = yes
+	group = bm_group_1178
+
+
+	# Lord Edmund Blackadder, the Chickenheart ID: TBA_blackadder_plantagenet
+	character = {
+		name = "bookmark_chickenheart_blackadder"
+		dynasty = dynasty_tbablackadder
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1155.1.6
+		title = c_west_riding
+		government = feudal_government
+		culture = english
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = TBA_plantagenet_blackadder
+		position = { 500 410 }
+
+		animation = personality_greedy
+		
+			character = {
+			name = "bookmark_chickenheart_baldrick"
+			relation = "BOOKMARK_RELATION_FRIEND"
+			type = male
+			birth = 1146.8.15
+			culture = english
+			religion = catholic
+			history_id = TBA_baldrick_III
+			animation = content }
+
+			character = {
+			name = "bookmark_chickenheart_henry"
+			relation = "BOOKMARK_RELATION_UNCLE"
+			dynasty_house = house_plantagenet
+			type = male
+			birth = 1133.3.5
+			title = k_england
+			government = feudal_government
+			culture = norman
+			religion = catholic
+			history_id = 204500
+			animation = disapproval }
+
+}
+
+		# Flashheart ID: TBA_flashheart
+		character = {
+		name = "bookmark_chickenheart_flashheart"
+		dynasty = dynasty_tbaflashheart
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1158.3.7
+		title = d_laamp_flashheart
+		government = landless_adventurer_government
+		culture = norman
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = TBA_flashheart
+		position = { 540 670 }
+		
+		animation = personality_ambitious 
+		
+		character = {
+			name = "bookmark_chickenheart_bob"
+			relation = "BOOKMARK_RELATION_LOVER"
+			type = female
+			birth = 1160.6.27
+			culture = norman
+			religion = catholic
+			history_id = TBA_bob
+			animation = happiness }
+		
+		}
+		
+		# Ludwig ID: TBA_ludwig
+		character = {
+		name = "bookmark_chickenheart_ludwig"
+		dynasty_house = house_welf
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1159.6.11
+		title = d_laamp_indestructible
+		government = landless_adventurer_government
+		culture = bavarian
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = TBA_ludwig
+		position = { 930 570 }
+		
+		animation = personality_dishonorable }	
+
+		# MacAdder
+		character = {
+		name = "bookmark_chickenheart_macadder"
+		dynasty_house = house_tbamacadder
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1152.1.6
+		title = c_inner_hebrides
+		government = feudal_government
+		culture = gaelic
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = TBA_euan_macadder
+		position = { 320 150 }
+		
+		animation = personality_ambitious }	
+}
+
+
+bm_1066_duc_blackadder = {
+	start_date = 1066.9.15
+	is_playable = yes
+	recommended = yes
+	group = bm_group_1066
+
+
+	# Duc Blackadder, the Betrayer ID: TBA_duc_blackadder
+	character = {
+		name = "bookmark_duc_blackadder_blackadder"
+		dynasty = dynasty_tbablackadder
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1034.1.6
+		title = c_surrey
+		government = feudal_government
+		culture = anglo_saxon
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = TBA_duc_blackadder
+		position = { 999 666 }
+
+		animation = personality_callous
+
+			character = {
+			name = "bookmark_duc_blackadder_georgina"
+			relation = "BOOKMARK_RELATION_WIFE"
+			type = female
+			birth = 1025.6.11
+			culture = french
+			religion = catholic
+			history_id = TBA_georgina_blackadder
+			animation = personality_honorable }
+
+		
+			character = {
+			name = "bookmark_duc_blackadder_baldrick"
+			relation = "BOOKMARK_RELATION_FRIEND"
+			type = male
+			birth = 1038.8.15
+			culture = anglo_saxon
+			religion = catholic
+			history_id = TBA_baldrick_II
+			animation = content }
+}

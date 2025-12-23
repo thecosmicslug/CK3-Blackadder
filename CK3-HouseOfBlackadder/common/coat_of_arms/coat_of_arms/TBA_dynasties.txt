@@ -1,0 +1,156 @@
+dynasty_tbablackadder ={
+	pattern="pattern_waves_01.dds"
+	color1=green_light
+	color2=rgb { 17 16 15 }
+	color3=red
+	colored_emblem={
+		color1=black
+		color2=green_light
+		color3=black
+		texture="ce_seal_pictorial_vertical_snake.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			scale={ 0.430000 0.430000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.510000 0.300000 }
+			scale={ 0.490000 0.490000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+
+house_tbapercy = { # Percy
+	pattern="pattern_horizontal_split_01.dds"
+	color1=rgb { 120 166 208 }
+	color2=rgb { 156 87 128 }
+	color3=rgb { 255 205 172 }
+	colored_emblem={
+		color1=white
+		color2=blue
+		texture="ce_clothes.dds"
+		instance={
+			scale={ 0.780000 0.890000 }
+			position={ 0.500000 0.500000 }
+		}
+
+	}
+}
+
+dynasty_tbaflashheart = { # Flashheart
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=rgb { 221 138 16 }
+		texture="ce_warrior_angel.dds"
+		instance={
+			position={ 0.500000 0.470000 }
+			scale={ 0.840000 0.840000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_african_munun_ti.dds"
+		instance={
+			position={ 0.570000 0.370000 }
+			scale={ 0.250000 0.250000 }
+			rotation=200
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_sabre.dds"
+		instance={
+			position={ 0.430000 0.240000 }
+			scale={ 0.410000 -0.410000 }
+			depth=1.010000
+			rotation=268
+		}
+
+	}
+
+}
+
+dynasty_tbamelchett = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=purple
+		texture="ce_lozenge.dds"
+		instance={
+			position={ 0.700000 0.180000 }
+			scale={ 0.560000 0.560000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_jesus_face.dds"
+		instance={
+			position={ 0.690000 0.230000 }
+			scale={ 0.390000 0.390000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_manticore.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
+house_tbawhiteadder = {
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=white
+}
+
+dynasty_tbamacadder ={
+	pattern="pattern_waves_01.dds"
+	color1=rgb { 203 149 69 }
+	color2=rgb { 30 61 94 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 123 43 0 }
+		color2=green_light
+		color3=white
+		texture="ce_ship_lymphad.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			scale={ 0.480000 0.480000 }
+			rotation=180
+		}
+
+	}
+}
+
+

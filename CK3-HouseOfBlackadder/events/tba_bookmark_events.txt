@@ -1,0 +1,213 @@
+namespace = tba_bookmark
+
+### EDMUND BLACKADDER START EVENT
+tba_bookmark.blackadder = {
+	type = character_event
+	title = tba_bookmark.blackadder.queenofspain
+	desc = tba_bookmark.blackadder.queenofspain.desc
+	theme = dungeon
+	override_background = { reference = temple_church }
+	override_effect_2d = {
+		reference = flies
+	}
+	left_portrait = {
+		character = root
+		animation = stress
+	}
+	right_portrait = {
+		character = scope:infanta
+		animation = ecstasy
+	}
+	lower_right_portrait = {
+	character = scope:bob
+	}
+	
+	lower_center_portrait = {
+	character = scope:percy
+	}
+	
+	lower_left_portrait = {
+		character = scope:baldrick
+	}
+	
+	trigger = {
+		this = character:TBA_plantagenet_blackadder
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_blackadder"
+		character:TBA_bob = {save_scope_as = bob}
+		character:TBA_baldrick_III = {save_scope_as = baldrick}
+		character:TBA_percy_2 = { save_scope_as = percy }
+		character:TBA_infanta = { save_scope_as = infanta }
+		character:206500 = { save_scope_as = infantas_father }
+		hidden_effect = {
+			add_opinion = {
+				target = scope:infanta
+				modifier = disgusted_opinion
+				opinion = -75
+			}
+		}
+	}
+
+	option = { # I have... a cunning plan...
+		name = tba_bookmark.blackadder.queenofspain.a
+		flavor = tba_bookmark.blackadder.queenofspain.a_flavor
+		highlight_portrait = scope:bob
+		
+		marry = scope:infanta
+		
+		if = {
+			limit = {
+				NOT = {
+					any_scheme = {
+						scheme_type = elope
+						scheme_target_character = scope:bob
+					}
+				}
+			}
+			start_scheme = {
+				target_character = scope:bob
+				type = elope
+			}
+		}
+		hidden_effect = {
+			random_scheme = {
+				limit = {
+					scheme_type = elope
+					scheme_target_character = scope:bob
+				}
+				add_scheme_modifier = {
+					type = massive_extra_success_chance_modifier
+				}
+			}
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { # Run away!!
+		name = tba_bookmark.blackadder.queenofspain.b
+		flavor = tba_bookmark.blackadder.queenofspain.b_flavor
+		add_internal_flag = special
+		highlight_portrait = scope:baldrick
+		highlight_portrait = scope:percy
+		
+		add_character_modifier = {
+			modifier = abandoned_marriage_modifier
+		}
+		
+		if = {
+			limit = {
+				betrothed = scope:infanta
+			}
+			break_betrothal = scope:infanta
+		}
+		else_if = {
+			limit = {
+				is_spouse_of = scope:infanta
+			}
+			divorce_effect = {
+				DIVORCER = root
+				DIVORCEE = scope:infanta
+			}
+		}
+		
+		scope:infantas_father = {
+			if = {
+				limit = {
+					NOT = {
+						scope:infanta = {
+							is_courtier_of = scope:infantas_father
+						}
+					}
+				}
+				add_courtier = scope:infanta
+			}
+		}
+		
+		reverse_add_opinion = {
+			target = scope:infanta
+			modifier = abandoned_me_opinion
+			years = 20
+			opinion = -50
+		}
+		
+		create_landless_adventurer_title_tooltip_effect = yes
+
+		hidden_effect = {
+		save_scope_as = adventurer
+		if = {
+			limit = {
+				player_heir ?= {
+					NOT = { this = root }
+					is_adult = yes
+				}
+			}
+			player_heir = {
+				save_scope_as = laamp_heir
+				save_scope_as = laamp_inheritor
+				custom_tooltip = become_landless_adventurer_decision_title_scope_tt
+			}
+		}
+		else_if = {
+			limit = { is_independent_ruler = no }
+			liege = {
+				save_scope_as = laamp_liege
+				save_scope_as = laamp_inheritor
+				custom_tooltip = become_landless_adventurer_decision_title_scope_tt
+			}
+		}
+		else = {
+			custom_tooltip = become_landless_adventurer_decision_title_created_tt
+			if = {
+				limit = {
+					NOT = { exists = scope:laamp_inheritor }
+				}
+				hidden_effect_new_object = {
+					create_character = {
+						template = laamp_inheritor_template
+						culture = root.capital_county.culture
+						faith = root.capital_county.faith
+						dynasty = generate
+						location = root.capital_province
+						after_creation = {
+							save_scope_as = laamp_inheritor
+							add_character_flag = new_laamp_inheritor
+						}
+					}
+				}
+			}
+		}
+		show_as_tooltip = {
+			add_prestige = medium_prestige_gain
+			add_character_modifier = {
+				modifier = ep3_voluntary_laamp_character_modifier
+				years = 5
+			}
+		}
+		trigger_event = { id = ep3_laamps.0030 }
+
+	limit = { scope:baldrick = { NOT = { is_courtier_of = scope:blackadder } } }
+		add_courtier = scope:baldrick
+	limit = { scope:percy = { NOT = { is_courtier_of = scope:blackadder } } }
+		add_courtier = scope:percy
+}
+		ai_chance = {
+			base = 100
+		}
+}
+
+	option = { # Accept your fate...
+		name = tba_bookmark.blackadder.queenofspain.c
+		add_internal_flag = dangerous
+		marry = scope:infanta
+		add_legitimacy = 50
+		add_trait = depressed_1
+		ai_chance = {
+			base = 50
+		}
+	}
+}

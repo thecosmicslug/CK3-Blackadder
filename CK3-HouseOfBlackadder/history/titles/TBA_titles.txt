@@ -1,0 +1,167 @@
+c_cumberland = {
+		122.1.1 = { 
+		holder = TBA_blackaddercus_blackadder
+	}
+}
+
+c_surrey = {
+		112.1.1 = { 
+		holder = TBA_blackaddercus_blackadder
+	}
+	867.1.1 = {
+		liege = d_somerset
+		holder = TBA_edmund_i_blackadder
+	}
+    872.2.20 = { 
+		holder = TBA_edmund_ii_blackadder
+	}
+	918.8.7 = {
+		holder = TBA_aetmund_blackadder
+	}
+	963.7.11 = {
+		holder = TBA_edgar_blackadder
+		}
+		
+	989.12.25 = {
+		holder = TBA_edwynth_blackadder
+		}
+	
+	1010.3.4 = {
+		holder = TBA_edbert_blackadder
+		}	
+		
+	1055.12.25 = { 
+		liege = d_canterbury
+		holder = TBA_duc_blackadder
+	}
+}
+
+c_northumberland = {
+	1157.1.1 = {
+		holder = TBA_percy_1
+	}
+}
+
+c_west_riding = {
+   1174.1.1 = {
+		liege = k_england
+		holder = TBA_plantagenet_blackadder
+	}        
+}
+
+c_kent = {
+	1177.1.1 = {
+		holder = TBA_melchy
+	}      
+}
+
+c_avalois = {
+	1016.1.5 = {
+		holder = TBA_darling_ancestor_1
+	} 
+	1074.1.1 = {
+		holder = TBA_darling_ancestor_2
+	}
+	1167.1.1 = {
+		holder = TBA_darling_2
+		}
+}
+
+d_laamp_flashheart = {
+	1174.1.1 = {
+		liege = 0
+		holder = TBA_flashheart 
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { 
+							has_realm_law = camp_purpose_mercenaries 
+						}
+					}
+					add_realm_law = camp_purpose_mercenaries 
+				}
+			
+			create_maa_regiment = {
+					type = conrois  
+					check_can_recruit = no
+					size = 1
+			}
+			create
+					add_realm_law = camp_purpose_mercenaries 
+				}
+			}
+	}
+}
+
+d_laamp_indestructible = {
+	1178.1.1 = {
+		liege = 0
+		holder = TBA_ludwig 
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { 
+							has_realm_law = camp_purpose_legitimists
+						}
+					}
+					add_realm_law = camp_purpose_legitimists
+				}
+			
+			}
+			create
+					add_realm_law = camp_purpose_legitimists
+				}
+			}
+	}
+	
+	
+	
+c_lennox = { 
+	1060.1.1 = { 
+		holder = TBA_chiswick_blackadder
+	}
+	1075.12.25 = { 
+		holder = TBA_eideard_macadder
+	}	
+}
+	
+d_western_isles = {
+	1156.1.1 = { 
+		holder = 0
+		liege = 0
+	}       
+}
+	
+c_inner_hebrides = {
+     
+	1156.1.1 = { 
+	liege = 0
+	holder = TBA_adder_macadder
+	}
+	1171.12.24 = {
+	holder = TBA_euan_macadder
+	}
+}
+
+c_argyll = {
+   1156.1.1 = { 
+		liege = k_scotland
+		holder = TBA_angus_macangus
+	}
+   1171.12.3 = { 
+		liege = k_scotland
+		holder = TBA_dougal_macangus
+	}         
+}

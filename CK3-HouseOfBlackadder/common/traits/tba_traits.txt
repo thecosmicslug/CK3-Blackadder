@@ -1,0 +1,9 @@
+tba_blackadder_trait = {
+	
+	same_opinion = 10
+	general_opinion = -15
+	shown_in_ruler_designer = no
+	
+	ai_honor = very_low_negative_ai_value
+	ai_greed = low_positive_ai_value
+}
