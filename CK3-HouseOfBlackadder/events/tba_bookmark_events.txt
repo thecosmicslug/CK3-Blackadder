@@ -1,4 +1,4 @@
-namespace = tba_bookmark
+﻿namespace = tba_bookmark
 
 ### EDMUND BLACKADDER START EVENT
 tba_bookmark.blackadder = {

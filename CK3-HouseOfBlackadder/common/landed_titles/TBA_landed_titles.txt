@@ -1,4 +1,4 @@
-d_laamp_flashheart = { # Flashheart
+﻿d_laamp_flashheart = { # Flashheart
 	color = { 221 221 221 }
 	capital = c_yperen 
 

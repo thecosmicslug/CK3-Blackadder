@@ -1,4 +1,4 @@
-tba_s1 = {
+﻿tba_s1 = {
 	music = "file:/music/tba_soundtrack/tba_s1.wav"
 	name = "tba_s1"
 	can_be_interrupted = yes

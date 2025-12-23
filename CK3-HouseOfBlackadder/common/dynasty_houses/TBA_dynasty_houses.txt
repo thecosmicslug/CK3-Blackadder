@@ -1,4 +1,4 @@
-house_tbawhiteadder = {
+﻿house_tbawhiteadder = {
 	name = "dynn_tbawhiteadder"
 	dynasty = dynasty_tbablackadder
 }

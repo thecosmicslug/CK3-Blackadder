@@ -1,4 +1,4 @@
-nick_chickenheart = { is_bad = yes}
+﻿nick_chickenheart = { is_bad = yes}
 nick_melchy = { }
 nick_bob = { }
 nick_the_indestructible = { }

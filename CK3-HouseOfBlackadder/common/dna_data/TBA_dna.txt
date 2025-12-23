@@ -1,4 +1,4 @@
-TBA_blackadder = {
+﻿TBA_blackadder = {
 	portrait_info = {
 	genes={ hair_color={ 3 236 3 236 }
  		skin_color={ 119 18 71 102 }

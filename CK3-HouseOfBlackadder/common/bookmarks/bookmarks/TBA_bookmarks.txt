@@ -1,4 +1,4 @@
-bm_1178_chickenheart = {
+﻿bm_1178_chickenheart = {
 	start_date = 1178.10.1
 	is_playable = yes
 	recommended = yes
@@ -156,4 +156,5 @@ bm_1066_duc_blackadder = {
 			religion = catholic
 			history_id = TBA_baldrick_II
 			animation = content }
+	}
 }

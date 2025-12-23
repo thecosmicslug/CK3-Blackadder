@@ -1,4 +1,4 @@
-dynasty_tbablackadder = {
+﻿dynasty_tbablackadder = {
 	name = "dynn_tbablackadder"
 	culture = "anglo_saxon"
 	motto = "dynn_motto_tbablackadder"

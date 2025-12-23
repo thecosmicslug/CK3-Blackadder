@@ -1,4 +1,4 @@
-on_game_start_after_lobby = {
+﻿on_game_start_after_lobby = {
 	effect = {
 			if = { # BLACKADDER EVENTS
 			limit = {

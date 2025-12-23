@@ -1,4 +1,4 @@
-tba_blackadder_trait = {
+﻿tba_blackadder_trait = {
 	
 	same_opinion = 10
 	general_opinion = -15
