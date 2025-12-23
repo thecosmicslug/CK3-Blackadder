@@ -1,0 +1,74 @@
+[12:58:32][E][bookmark.cpp:490]: invalid portrait animation content for bookmark character bookmark_chickenheart_baldrick
+[12:58:32][E][bookmark.cpp:490]: invalid portrait animation content for bookmark character bookmark_duc_blackadder_baldrick
+[12:58:33][E][bookmark.cpp:342]: Bookmark character 'bookmark_chickenheart_flashheart' location image 'gfx/interface/bookmarks/bm_1178_chickenheart_bookmark_chickenheart_flashheart.dds' not found
+[12:58:33][E][bookmark.cpp:490]: invalid portrait animation personality_ambitious for bookmark character bookmark_chickenheart_flashheart
+[12:58:33][E][bookmark.cpp:342]: Bookmark character 'bookmark_chickenheart_ludwig' location image 'gfx/interface/bookmarks/bm_1178_chickenheart_bookmark_chickenheart_ludwig.dds' not found
+[12:58:33][E][bookmark.cpp:342]: Bookmark character 'bookmark_chickenheart_macadder' location image 'gfx/interface/bookmarks/bm_1178_chickenheart_bookmark_chickenheart_macadder.dds' not found
+[12:58:33][E][bookmark.cpp:280]: Bookmark character 'bookmark_chickenheart_macadder' has invalid dynasty and invalid dynasty house scripted
+[12:58:33][E][bookmark.cpp:342]: Bookmark character 'bookmark_duc_blackadder_blackadder' location image 'gfx/interface/bookmarks/bm_1066_duc_blackadder_bookmark_duc_blackadder_blackadder.dds' not found
+[12:58:33][E][bookmark.cpp:490]: invalid portrait animation personality_ambitious for bookmark character bookmark_chickenheart_macadder
+[12:58:33][E][characterhistory.cpp:1057]: reckles not a valid trait at: file: history/characters/TBA_characters.txt line: 44
+[12:58:33][E][characterhistory.cpp:358]: eunuch not a valid trait at: file: history/characters/TBA_characters.txt line: 219
+[12:58:33][E][characterhistory.cpp:1140]: Both dynasty and dynasty_house scripted, will use dynasty_house and ignore dynasty; at 'character id: TBA_bastard_filbert_blackadder at file: history/characters/TBA_characters.txt line: 399'
+[12:58:33][E][characterhistory.cpp:1140]: Both dynasty and dynasty_house scripted, will use dynasty_house and ignore dynasty; at 'character id: TBA_bastard_filip_blackadder at file: history/characters/TBA_characters.txt line: 422'
+[12:58:33][E][characterhistory.cpp:1140]: Both dynasty and dynasty_house scripted, will use dynasty_house and ignore dynasty; at 'character id: TBA_bastard_fiona_blackadder at file: history/characters/TBA_characters.txt line: 444'
+[12:58:33][E][characterhistory.cpp:1140]: Both dynasty and dynasty_house scripted, will use dynasty_house and ignore dynasty; at 'character id: TBA_eden_whiteadder at file: history/characters/TBA_characters.txt line: 580'
+[12:58:33][E][characterhistory.cpp:1057]: reckles not a valid trait at: file: history/characters/TBA_characters.txt line: 1284
+[12:58:33][E][characterhistory.cpp:1057]: reckles not a valid trait at: file: history/characters/TBA_characters.txt line: 1363
+[12:58:33][E][characterhistory.cpp:1153]: Character does not have a faith scripted, will default to first scripted faith, 'character id: 204500 at file: history/characters/TBA_characters.txt line: 1447'
+[12:58:33][E][characterhistory.cpp:1153]: Character does not have a faith scripted, will default to first scripted faith, 'character id: 204500 at file: history/characters/TBA_characters.txt line: 1444'
+[12:59:18][I][generatefrombookmarkidlerlogic.cpp:105]: Staring generate game state from bookmark task
+[12:59:18][I][gamestate.cpp:1061]: Start running through history.
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Blackaddercus' for character 'TBA_blackaddercus_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Æthmund' for character 'TBA_aetmund_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edric' for character 'TBA_edric_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Chiswick' for character 'TBA_chiswick_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edwynth' for character 'TBA_edwynth_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edmond' for character 'TBA_edmond_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edric' for character 'TBA_eunuch_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edbert' for character 'TBA_edbert_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Percy Marie-Kévin' for character 'TBA_darling_ancestor_1'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Kévanth' for character 'TBA_darling_ancestor_2'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Georgina' for character 'TBA_georgina_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Eideard' for character 'TBA_eideard_macadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Parsifal' for character 'TBA_percy_ancestor_1'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Percignor' for character 'TBA_percy_ancestor_2'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Ed'' for character 'TBA_ed_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Edd'' for character 'TBA_edd_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Eddie' for character 'TBA_eddie_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Karlin' for character 'TBA_darling_ancestor_3'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Snou' for character 'TBA_snou_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Percifores' for character 'TBA_percy_ancestor_3'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Falin' for character 'TBA_darling_ancestor_4'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Kévan' for character 'TBA_darling_1'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Eadbhárd' for character 'TBA_eadbhard_macadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Eddard' for character 'TBA_eddard_blackadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Father of Kate' for character 'TBA_bob_father'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Eden' for character 'TBA_eden_whiteadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Adder' for character 'TBA_adder_macadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Percival' for character 'TBA_percy_1'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Ed-sumthin'' for character 'TBA_deadkid_blackadder'
+[12:59:18][E][scripted_character_lookup.cpp:38]: Duplicate character id in history: 204500 - 49557
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Kévin' for character 'TBA_darling_2'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Euan' for character 'TBA_euan_macadder'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Dougal' for character 'TBA_dougal_macangus'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Percy' for character 'TBA_percy_2'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Melchett' for character 'TBA_melchy'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Rikard' for character 'TBA_flashheart'
+[12:59:18][E][characterhistory.cpp:807]: Missing loc for name 'Kate' for character 'TBA_bob'
+[12:59:18][E][characterhistory.cpp:253]: History character ID [TBA_edmund_i_blackadder]: warning_icon! X TOOLTIP:GAME_TRAIT,sadistic,13464 L; Sadistic!! can't be added because ONCLICK:CHARACTER,13464 TOOLTIP:CHARACTER,13464 L Edmund!!! already has the opposite trait TOOLTIP:GAME_TRAIT,callous,13464 L; Callous!!!
+[12:59:19][E][characterhistory.cpp:1168]: Unset faith for character history of '204500', defaulting to first scripted faith
+[12:59:20][E][characterhistory.cpp:516]: 18765 is not landed and cannot be set as employer of TBA_eideard_macadder in 1029.1.6 at file: history/characters/TBA_characters.txt line: 1287. The command won't execute.
+[12:59:20][E][characterhistory.cpp:253]: History character ID [TBA_eddie_blackadder]: warning_icon! X TOOLTIP:GAME_TRAIT,sickly,39247 L; Sickly!! can't be added because ONCLICK:CHARACTER,39247 TOOLTIP:CHARACTER,39247 L Eddie!!! is older than V; 6! weak (is V; 114!)!!
+[12:59:21][E][characterhistory.cpp:524]: TBA_melchy is landed and cannot have an employer in 1178.1.1. The command won't execute. At file: history/characters/TBA_characters.txt line: 1122
+[12:59:21][E][history.cpp:523]:  Lowborn of  (Internal ID: 49557 - Historical ID 204500) has no faith
+[12:59:21][E][history.cpp:530]:  Lowborn of  (Internal ID: 49557 - Historical ID 204500) has no faith
+[12:59:27][I][gamestate.cpp:1171]: Completed running through history.
+[12:59:27][I][gamestate.cpp:1180]: Start running through post-history.
+[12:59:30][I][gamestate.cpp:1239]: Completed running through post-history.
+[12:59:30][I][generatefrombookmarkidlerlogic.cpp:127]: Completed generating game state from bookmark task
+[12:59:34][W][character.cpp:1798]: Failed to find title flavorization for title 'null' and character 'Heon_jong Wang of  (Internal ID: 42152 - Historical ID korean_wang_goryeo_16)' of dynasty 'Wang', defaulting to LocalizedHonorifics (may go in infinite loop)
+[12:59:34][E][landed_title_name_util.cpp:855]: Failed to find any valid flavorization for title 
+[12:59:34][E][character.cpp:1808]: Failed to find any valid flavorization for character 'Heon-jong Wang' using title 'ONCLICK:TITLE,4294967295 TOOLTIP:LANDED_TITLE,4294967295 L; None of !!!'
+[12:59:45][I][character_window.cpp:1003]: Open character 'Kate Parkhurst of  (Internal ID: 55104 - Historical ID TBA_bob)'
+[12:59:47][I][character_window.cpp:1003]: Open character 'Maria Escalosa of  (Internal ID: 51169 - Historical ID TBA_infanta)'
