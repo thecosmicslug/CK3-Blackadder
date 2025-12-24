@@ -1,0 +1,11 @@
+death_sacrificed = {
+
+}
+
+death_accident_drowning = {
+
+}
+
+death_execution_beheading = {
+
+}

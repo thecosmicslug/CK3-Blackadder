@@ -797,7 +797,7 @@ TBA_darling_ancestor_1 = {
 		birth = yes	
 	}
 		1016.1.5 = {
-		add_pressed_claim = c_dijon 
+		add_pressed_claim = title:c_dijon
 		}
 	1052.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -921,7 +921,7 @@ TBA_percy_ancestor_1 = {
 
 	1029.11.18 = {
 		birth = yes
-		add_pressed_claim = c_dijon 
+		add_pressed_claim = title:c_dijon
 	}
 		1055.12.25 = {
 		employer = TBA_duc_blackadder
