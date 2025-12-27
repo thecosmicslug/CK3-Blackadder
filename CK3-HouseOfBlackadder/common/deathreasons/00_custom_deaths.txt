@@ -1,4 +1,4 @@
-death_sacrificed = {
+﻿death_sacrificed = {
 
 }
 

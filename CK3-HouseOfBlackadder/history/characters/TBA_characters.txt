@@ -49,26 +49,26 @@ TBA_duc_blackadder = { # BLACKADDER 1066 - EDMUND III
 	trait = education_martial_1
 		
 		1034.1.6 = {
-	    birth = yes
-		effect = { add_character_flag = do_not_generate_starting_family }
+	    	birth = yes
+			effect = { add_character_flag = do_not_generate_starting_family }
 		}
 		
 		1050.6.9 = {
-	    add_spouse = TBA_georgina_blackadder
+	    	add_spouse = TBA_georgina_blackadder
 		}
 		
 		1060.4.20 = {
-	    trait = adulterer
-		give_nickname = nick_the_lecher
+	    	trait = adulterer
+			give_nickname = nick_the_lecher
 		}
 		
 		1066.10.14 = {
-		trait = murderer
-		give_nickname = nick_the_betrayer
+			trait = murderer
+			give_nickname = nick_the_betrayer
 		}
 		
 		1097 = {
-		death = { death_reason = death_old_age }
+			death = { death_reason = death_old_age }
 		}
 }
 
@@ -120,7 +120,7 @@ TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
 # FILLER BLACKADDERS
 
 TBA_blackaddercus_blackadder = {
-	name = "Blackaddercus"
+	name = tba_blackaddercus_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "hellenic_pagan"
@@ -131,12 +131,12 @@ TBA_blackaddercus_blackadder = {
 	trait = lisping
 		
 		101.1.6 = {
-	    birth = yes
-		give_nickname = nick_the_culture_wall
+	    	birth = yes
+			give_nickname = nick_the_culture_wall
 		}
 		
 		142.12.25 = {
-	    death = {death_reason = death_vanished }
+	    	death = {death_reason = death_vanished }
 		}
 }
 
@@ -153,11 +153,11 @@ TBA_edmund_ii_blackadder = {
 	trait = lisping
 		
 		867.1.6 = {
-	    birth = yes
+	    	birth = yes
 		}
 		
 		918.8.7 = {
-	    death = {death_reason = death_old_age }
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -175,11 +175,11 @@ TBA_aetmund_blackadder = {
 	trait = lisping
 		
 		894.1.6 = {
-	    birth = yes
+	    	birth = yes
 		}
 		
 		963.7.11 = {
-	    death = {death_reason = death_old_age }
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -196,12 +196,12 @@ TBA_edric_blackadder = {
 	trait = lisping
 		
 		913.1.6 = {
-	    birth = yes
-		give_nickname = nick_the_elder
+	    	birth = yes
+			give_nickname = nick_the_elder
 		}
 		
 		1033.9.11 = {
-	    death = {death_reason = death_old_age }
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -215,14 +215,14 @@ TBA_eunuch_blackadder = {
 	trait = lisping
 	
 		987.1.6 = {
-	    birth = yes
-		trait = eunuch
-		give_nickname = nick_the_not_so_elder
+	    	birth = yes
+			trait = eunuch
+			give_nickname = nick_the_not_so_elder
 		}
 		
 		1000.12.25 = {
-	    death = {death_reason = death_ill}
-		trait = pneumonic
+	    	death = {death_reason = death_ill}
+			trait = pneumonic
 		}
 }
 
@@ -239,11 +239,11 @@ TBA_edgar_blackadder = {
 	trait = lisping
 	trait = hunchbacked
 		932.1.6 = {
-	    birth = yes
-		give_nickname = nick_the_hunchback
+	    	birth = yes
+			give_nickname = nick_the_hunchback
 		}
-		989.12.25 = {
-	    death = {death_reason = death_old_age }
+			989.12.25 = {
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -260,12 +260,12 @@ TBA_edwynth_blackadder = {
 	trait = lisping
 		
 		967.1.6 = {
-	    birth = yes
-		give_nickname = nick_the_joyless
+	    	birth = yes
+			give_nickname = nick_the_joyless
 		}
 
 		1010.3.4 = {
-	    death = { death_reason = death_natural_causes }
+	    	death = { death_reason = death_natural_causes }
 		}
 }
 
@@ -282,12 +282,12 @@ TBA_edmond_blackadder = {
 	trait = lisping
 		
 		985.1.6 = {
-	    birth = yes
+	    	birth = yes
 		}
 
 		1004.7.12 = {
-		trait = pneumonic	
-	    death = { death_reason = death_ill }
+			trait = pneumonic	
+	    	death = { death_reason = death_ill }
 		}
 }
 
@@ -301,11 +301,11 @@ TBA_edbert_blackadder = {
 	trait = lisping
 		
 		995.1.6 = {
-	    birth = yes
+	    	birth = yes
 		}
 
 		1055.12.25 = {
-	    death = { death_reason = death_old_age }
+	    	death = { death_reason = death_old_age }
 		}
 }
 
@@ -323,12 +323,12 @@ TBA_chiswick_blackadder = {
 	trait = lunatic_genetic
 		
 		962.1.6 = {
-	    birth = yes
-		give_nickname = nick_the_insane
+	    	birth = yes
+			give_nickname = nick_the_insane
 		}
 		
 		1061.12.25 = {
-	    death = {death_reason = death_old_age }
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -357,12 +357,12 @@ TBA_edna_blackadder = {
 		}
 	
         1066.10.14 = {
-		trait = devoted
-		give_nickname = nick_the_chaste
+			trait = devoted
+			give_nickname = nick_the_chaste
 		}
 		
 		1100.1.6 = {
-	    death = { death_reason = death_old_age }
+	    	death = { death_reason = death_old_age }
 		}
 }
 
@@ -375,12 +375,12 @@ TBA_snou_blackadder = {
 	trait = lisping
 		
 		1070.1.6 = {
-	    birth = yes
-		trait = bastard
+	    	birth = yes
+			trait = bastard
 		}
 	
         1085.12.25 = {
-	    death = { death_reason = death_vanished }
+	    	death = { death_reason = death_vanished }
 		}
 }
 
@@ -397,13 +397,12 @@ TBA_bastard_filbert_blackadder = {
 	trait = arrogant
 
 		1060.4.20 = {
-	    birth = yes
-		trait = bastard 
-		give_nickname = nick_the_bastard
-	}
+	    	birth = yes
+			trait = bastard 
+			give_nickname = nick_the_bastard
+		}
 		1092.9.11 = {
-	    death = yes
-		death = yes
+			death = yes
 		}
 }
 
@@ -420,11 +419,10 @@ TBA_bastard_filip_blackadder = {
 	trait = arrogant
 
 		1087.1.6 = {
-	    birth = yes
-	}
+	    	birth = yes
+		}
 		1141.9.11 = {
-	    death = yes
-		death = yes
+	    	death = yes
 		}
 }
 
@@ -442,11 +440,10 @@ TBA_bastard_fiona_blackadder = {
 	trait = arrogant
 
 		1120.1.6 = {
-	    birth = yes
-	}
+	    	birth = yes
+		}
 		1190.9.11 = {
-	    death = yes
-		death = yes
+	    	death = yes
 		}
 }
 
@@ -516,7 +513,6 @@ TBA_eddie_blackadder = {
 	}
 		1064.1.6 = {
 		trait = sickly
-		death = yes
 	    death = { death_reason = death_ill }
 		}
 }
@@ -559,9 +555,11 @@ TBA_eddard_blackadder = {
 		give_nickname = nick_the_headless
 	}
 		1174.11.30 = {
-		death = { death_reason = death_execution_beheading }  
-		killer = 204500
+		death = { death_reason = death_execution_beheading
+				  killer = 204500
+				}  
 		}
+
 }
 
 TBA_eden_whiteadder = { 
@@ -1146,7 +1144,7 @@ TBA_bob = {
 	father = TBA_bob_father
 	dynasty = dynasty_tbaparkhurst
 	religion = "catholic"
-	culture = "vlach"
+	culture = "norman"
 	diplomacy = 9
 	martial = 7
 	stewardship = 12
@@ -1242,9 +1240,9 @@ TBA_ludwig = {
 	1159.6.11 = {
 		birth = yes
 		effect = { add_character_flag = do_not_generate_starting_family }
-		give_nickname = nick_the_indestructible
-		add_unpressed_claim = title:k_england
-		add_trait = scarred
+			give_nickname = nick_the_indestructible
+			add_unpressed_claim = title:k_england
+			add_trait = scarred
 		effect = {
 			add_trait_xp = {
 				trait = scarred
@@ -1285,12 +1283,12 @@ TBA_eideard_macadder = {
 	trait = education_martial_prowess_2
 		
 		1029.1.6 = {
-	    birth = yes
-		employer = 18765
+	    	birth = yes
+			employer = 18765
 		}
 			
 		1100.4.2 = {
-	    death = {death_reason = death_old_age }
+	    	death = {death_reason = death_old_age }
 		}
 }
 
@@ -1307,13 +1305,13 @@ TBA_adder_macadder = {
 	trait = stuttering
 		
 		1123.1.6 = {
-	    birth = yes
-		add_pressed_claim = title:c_outer_hebrides
-		set_relation_rival = {target = character:TBA_angus_macangus}
+	    	birth = yes
+			add_pressed_claim = title:c_outer_hebrides
+			set_relation_rival = {target = character:TBA_angus_macangus}
 		}
 			
 		1171.12.24 = {
-	    death = {death_reason = death_old_age}
+	    	death = {death_reason = death_old_age}
 		}
 }
 
@@ -1332,11 +1330,11 @@ TBA_eadbhard_macadder = {
 	trait = wheezing
 		
 		1101.1.6 = {
-	    birth = yes
+	    	birth = yes
 		}
 			
 		1124.12.24 = {
-	    death = {death_reason = death_old_age}
+	    	death = {death_reason = death_old_age}
 		}
 }
 
@@ -1365,14 +1363,14 @@ TBA_euan_macadder = {
 		
 		1152.1.6 = {
 	    birth = yes
-		add_pressed_claim = title:c_outer_hebrides
-		add_pressed_claim = title:c_argyll
-		add_unpressed_claim = title:k_england
-		set_relation_rival = {target = character:TBA_dougal_macangus}
+			add_pressed_claim = title:c_outer_hebrides
+			add_pressed_claim = title:c_argyll
+			add_unpressed_claim = title:k_england
+			set_relation_rival = {target = character:TBA_dougal_macangus}
 		}
 			
 		1190.6.10 = {
-	    death = yes
+	    	death = yes
 		}
 }
 
@@ -1387,12 +1385,12 @@ TBA_angus_macangus = {
 	trait = wrathful
 		
 		1138.1.27 = {
-	    birth = yes
-		add_pressed_claim = title:c_argyll
+	    	birth = yes
+			add_pressed_claim = title:c_argyll
 		}
 			
 		1178.12.3 = {
-	    death = {death_reason = death_old_age}
+	    	death = {death_reason = death_old_age}
 		}
 }
 
@@ -1408,11 +1406,11 @@ TBA_dougal_macangus = {
 	trait = wrathful
 		
 		1155.1.27 = {
-	    birth = yes
+	    	birth = yes
 		}
 			
 		1190.6.10 = {
-	    death = yes
+	    	death = yes
 		}
 }
 
@@ -1430,10 +1428,10 @@ TBA_infanta = {
 	trait = honest
 	trait = beauty_bad_1
 		1141.5.18 = {
-	    birth = yes
+	    	birth = yes
 		}
 		1190.6.10 = {
-	    death = yes
+	    	death = yes
 		}
 }
 

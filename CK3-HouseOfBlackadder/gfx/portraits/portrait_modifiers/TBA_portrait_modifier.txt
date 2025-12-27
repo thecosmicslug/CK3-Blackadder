@@ -12,12 +12,12 @@
                 mode = add
                 gene = hairstyles
                 template = ep2_hairstyles_western
-                type = male_hair_ep2_western_01
+                type = male
             	}
 	        accessory = {
                 mode = add
                 gene = beards
-                template = beards
+                template = no_beard
                 accessory = no_beard
 				value = 0.0
             	}
@@ -127,7 +127,7 @@ baldrick_portrait_modifier = {
                 mode = add
                 gene = hairstyles
                 template = ep2_hairstyles_western 
-                type = m_hair_ep2_western_02
+                type = male
             	}
            	accessory = {
                 mode = add
@@ -169,7 +169,7 @@ flashheart_portrait_modifier = {
            	accessory = {
                 mode = add
                 gene = beards
-                template = fp2_beards_straight
+                template = no_beard
                 accessory = male_beard_fp2_iberian_christian_04
             	}
 
@@ -243,7 +243,7 @@ ludwig_portrait_modifier = {
 	        accessory = {
                 mode = add
                 gene = beards
-                template = beards
+                template = no_beard
                 accessory = no_beard
 		value = 0.0
             	}

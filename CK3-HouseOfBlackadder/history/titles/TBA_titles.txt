@@ -31,7 +31,6 @@ c_surrey = {
 		}	
 		
 	1055.12.25 = { 
-		liege = d_canterbury
 		holder = TBA_duc_blackadder
 	}
 }
@@ -92,11 +91,9 @@ d_laamp_flashheart = {
 					check_can_recruit = no
 					size = 1
 			}
-			create
-					add_realm_law = camp_purpose_mercenaries 
-				}
-			}
+		}
 	}
+	}	
 }
 
 d_laamp_indestructible = {
@@ -120,11 +117,10 @@ d_laamp_indestructible = {
 				}
 			
 			}
-			create
-					add_realm_law = camp_purpose_legitimists
-				}
-			}
+
+		}
 	}
+}
 	
 	
 	

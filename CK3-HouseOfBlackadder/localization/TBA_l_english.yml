@@ -1,5 +1,7 @@
 ﻿l_english:
-
+death_sacrificed: "Sacrificed"
+death_accident_drowning: "Drowned"
+death_execution_beheading: "Beheaded"
 bm_1178_chickenheart: "The Chickenheart"
 bm_1178_chickenheart_desc: "Many historical events are incontrovertible fact. The fall of the Roman Empire. The First Crusade. The Erfurt latrine disaster. \n\nBut an oft-forgotten period of Medieval history relates to the vile contemporaries of the Angevin King Henry II, who accidentally unleashed upon the world one of the most conniving yet simultaneously pathetic dynasties known to mankind. \n\nFollowing the Great Revolt, The Angevin Empire in chaos, Henry was forced to make a number of hasty, ill-advised appointments. Historians agree that Edmund “Chickenheart” Blackadder’s elevation to the Earldom of West Riding was by FAR the worst among them, having gone to bed a bachelor wastrel one day, and waking a liege lord the next. \n\nOn the continent, the great Lord Flashheart was in Ypres about to begin the travels destined to make him famous, while elsewhere Ludwig “the Indestructible” lurked in the heart of the Holy Roman Empire, cultivating the nascent plot that may one day steal him a Kingdom. \n\nDid Edmund overcome his worst qualities to become a ruler more worthy than a bag of worms? Was Ludwig able trick and cajole his way to a throne? How many engaged women did Flash elope with? \n\n#bold All is revealed in this, a history never before told. Blackadder - Or, The History of the House of Blackadder in the Times of Richard the Lionheart.#!"
 
@@ -26,8 +28,9 @@ bookmark_duc_blackadder_baldrick: "Baldrick"
 bookmark_duc_blackadder_georgina: "Georgina"
 
 d_laamp_flashheart: "The Twenty Minuteers"
+d_laamp_flashheart_adj: "Lord Flashheart"
 d_laamp_indestructible: "Doppelgängers of Düsseldorf"
-
+d_laamp_indestructible_adj: "Prince Ludwig the Indestructible"
 
 nick_chickenheart: "Chickenheart"
 nick_chickenheart_desc: "While Richard was showered in renown for his bravery, and granted the title "The Lionheart", his cousin Lord Blackadder would be remembered as "The Chickenheart" for his cowardice."
@@ -76,3 +79,5 @@ tba_bookmark.blackadder.queenofspain.a_flavor: "My trusty dogsbody Baldrick has 
 tba_bookmark.blackadder.queenofspain.b: "Baldrick! Percy! Grab what you can quickly, we must run away!!"
 tba_bookmark.blackadder.queenofspain.b_flavor: "I have only just become a lord, and I can just as well abandon it all again, if I get to be rid of that incestious spanish infanta! we must grab what we can, and flee England at once on the first ferry from Dover!"
 tba_bookmark.blackadder.queenofspain.c: "You can't run forever, its time to accept your fate..."
+
+tba_blackaddercus_blackadder_name:0 ""Blackaddercus""

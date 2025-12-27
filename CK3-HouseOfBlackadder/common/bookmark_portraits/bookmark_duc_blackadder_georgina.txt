@@ -128,9 +128,8 @@ bookmark_duc_blackadder_georgina={
 			custom_cloaks=female_empty
 			custom_clothes=female_clothes_secular_dde_hre_nobility_02_low
 		}
-		colors={
-			hair={ 0.63529 0.47058 0.27058 }
-		}
+		# Removed unsupported 'colors' block (save-export-only). Hair RGB recorded below
+		# Hair RGB: 0.63529 0.47058 0.27058
 	}
 
 	entity={ 3942081117 3942081117 }

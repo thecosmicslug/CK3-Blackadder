@@ -190,15 +190,16 @@ tba_bookmark.blackadder = {
 		}
 		trigger_event = { id = ep3_laamps.0030 }
 
-	limit = { scope:baldrick = { NOT = { is_courtier_of = scope:blackadder } } }
-		add_courtier = scope:baldrick
-	limit = { scope:percy = { NOT = { is_courtier_of = scope:blackadder } } }
-		add_courtier = scope:percy
-}
+		limit = { scope:baldrick = { NOT = { is_courtier_of = scope:blackadder } } }
+			add_courtier = scope:baldrick
+		limit = { scope:percy = { NOT = { is_courtier_of = scope:blackadder } } }
+			add_courtier = scope:percy
+		}
+
 		ai_chance = {
 			base = 100
 		}
-}
+	}
 
 	option = { # Accept your fate...
 		name = tba_bookmark.blackadder.queenofspain.c

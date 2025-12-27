@@ -30,7 +30,7 @@
 			culture = english
 			religion = catholic
 			history_id = TBA_baldrick_III
-			animation = content }
+			animation = personality_content }
 
 			character = {
 			name = "bookmark_chickenheart_henry"
@@ -45,7 +45,7 @@
 			history_id = 204500
 			animation = disapproval }
 
-}
+	}
 
 		# Flashheart ID: TBA_flashheart
 		character = {
@@ -155,6 +155,6 @@ bm_1066_duc_blackadder = {
 			culture = anglo_saxon
 			religion = catholic
 			history_id = TBA_baldrick_II
-			animation = content }
+			animation = personality_content }
 	}
 }
