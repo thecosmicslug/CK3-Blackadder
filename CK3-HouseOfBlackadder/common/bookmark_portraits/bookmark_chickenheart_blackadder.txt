@@ -123,7 +123,7 @@ bookmark_chickenheart_blackadder={
  }
 	override={
 		portrait_modifier_overrides={
-			custom_headgear=male_empty
+			#custom_headgear=headgear_empty
 			custom_clothes=male_clothes_secular_dde_hre_nobility_02_high
 		}
 	}

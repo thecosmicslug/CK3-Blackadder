@@ -123,9 +123,9 @@ bookmark_duc_blackadder_georgina={
  }
 	override={
 		portrait_modifier_overrides={
-			custom_headgear=female_empty
+			#custom_headgear=female_empty
 			custom_hair=female_hair_fp2_iberian_christian_03
-			custom_cloaks=female_empty
+			#custom_cloaks=female_empty
 			custom_clothes=female_clothes_secular_dde_hre_nobility_02_low
 		}
 		# Removed unsupported 'colors' block (save-export-only). Hair RGB recorded below

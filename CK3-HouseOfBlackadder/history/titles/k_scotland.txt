@@ -1735,7 +1735,7 @@ c_annandale = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_lennox = {
 	355.1.1 = {
 		holder = 166466
@@ -1851,7 +1851,7 @@ c_lennox = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 d_western_isles = {
 	#Dal Riata
 	490.1.1 = {
@@ -2059,7 +2059,7 @@ d_western_isles = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_inner_hebrides = {
 	#Dal Riata
 	490.1.1 = {
@@ -2455,7 +2455,7 @@ c_outer_hebrides = {
 
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_argyll = {
 	490.1.1 = {
 		liege = "d_western_isles"

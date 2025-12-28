@@ -163,7 +163,7 @@ TBA_edmund_ii_blackadder = {
 
 
 TBA_aetmund_blackadder = {
-	name = "Æthmund"
+	name = tba_aetmund_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -184,7 +184,7 @@ TBA_aetmund_blackadder = {
 }
 
 TBA_edric_blackadder = {
-	name = "Edric"
+	name = tba_edric_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -206,7 +206,7 @@ TBA_edric_blackadder = {
 }
 
 TBA_eunuch_blackadder = {
-	name = "Edric"
+	name = tba_edric_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -248,7 +248,7 @@ TBA_edgar_blackadder = {
 }
 
 TBA_edwynth_blackadder = {
-	name = "Edwynth"
+	name = tba_edwynth_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -270,7 +270,7 @@ TBA_edwynth_blackadder = {
 }
 
 TBA_edmond_blackadder = {
-	name = "Edmond"
+	name = tba_edmond_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "adamites"
@@ -292,7 +292,7 @@ TBA_edmond_blackadder = {
 }
 
 TBA_edbert_blackadder = {
-	name = "Edbert"
+	name = tba_edbert_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -310,7 +310,7 @@ TBA_edbert_blackadder = {
 }
 
 TBA_chiswick_blackadder = {
-	name = "Chiswick"
+	name = tba_chiswick_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbamacadder
 	religion = "insular_celtic"
@@ -367,7 +367,7 @@ TBA_edna_blackadder = {
 }
 
 TBA_snou_blackadder = {
-	name = "Snou"
+	name = tba_snou_blackadder_name
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
 	culture = "english"
@@ -448,7 +448,7 @@ TBA_bastard_fiona_blackadder = {
 }
 
 TBA_georgina_blackadder = {
-	name = "Georgina"
+	name = tba_georgina_blackadder
 	female = yes
 	dna = TBA_hugh
 	religion = "catholic"
@@ -464,7 +464,7 @@ TBA_georgina_blackadder = {
 }
 
 TBA_ed_blackadder = { 
-	name = "Ed'"
+	name = tba_ed_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -482,7 +482,7 @@ TBA_ed_blackadder = {
 }
 
 TBA_edd_blackadder = { 
-	name = "Edd'"
+	name = tba_edd_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -500,7 +500,7 @@ TBA_edd_blackadder = {
 }
 
 TBA_eddie_blackadder = { 
-	name = "Eddie"
+	name = tba_eddie_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -539,7 +539,7 @@ TBA_edwin_blackadder = {
 }
 
 TBA_eddard_blackadder = { 
-	name = "Eddard"
+	name = tba_eddard_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -563,7 +563,7 @@ TBA_eddard_blackadder = {
 }
 
 TBA_eden_whiteadder = { 
-	name = "Eden"
+	name = tba_eden_whiteadder_name
 	female = yes
 	dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbawhiteadder 
@@ -584,7 +584,7 @@ TBA_eden_whiteadder = {
 }
 
 TBA_deadkid_blackadder = { 
-	name = "Ed-sumthin'"
+	name = tba_deadkid_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -781,7 +781,7 @@ TBA_baldrick_III = {
 # PERCY & D'ARLING
 
 TBA_darling_ancestor_1 = {
-	name = "Percy Marie-Kévin"
+	name = tba_darling_ancestor_1_name
 	dna = TBA_percy
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
@@ -803,7 +803,7 @@ TBA_darling_ancestor_1 = {
 }
 
 TBA_darling_ancestor_2 = {
-	name = "Kévanth"
+	name = tba_darling_ancestor_2_name
 	dna = TBA_percy
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
@@ -824,7 +824,7 @@ TBA_darling_ancestor_2 = {
 }
 
 TBA_darling_ancestor_3 = {
-	name = "Karlin"
+	name = tba_darling_ancestor_3_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
 	culture = "french"
@@ -843,7 +843,7 @@ TBA_darling_ancestor_3 = {
 }
 
 TBA_darling_ancestor_4 = {
-	name = "Falin"
+	name = tba_darling_ancestor_4_name
 	dna = TBA_percy
 	female = yes
 	dynasty = dynasty_tbadarling
@@ -864,7 +864,7 @@ TBA_darling_ancestor_4 = {
 }
 
 TBA_darling_1 = {
-	name = "Kévan"
+	name = tba_darling_1_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
 	culture = "french"
@@ -883,7 +883,7 @@ TBA_darling_1 = {
 }
 
 TBA_darling_2 = {
-	name = "Kévin"
+	name = tba_darling_2_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
 	culture = "french"
@@ -905,7 +905,7 @@ TBA_darling_2 = {
 }
 
 TBA_percy_ancestor_1 = {
-	name = "Parsifal"
+	name = tba_percy_ancestor_1_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
 	religion = "catholic"
@@ -933,7 +933,7 @@ TBA_percy_ancestor_1 = {
 }
 
 TBA_percy_ancestor_2 = {
-	name = "Percignor"
+	name = tba_percy_ancestor_2_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
 	religion = "catholic"
@@ -959,7 +959,7 @@ TBA_percy_ancestor_2 = {
 
 
 TBA_percy_ancestor_3 = {
-	name = "Percifores"
+	name = tba_percy_ancestor_3_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
 	religion = "catholic"
@@ -980,7 +980,7 @@ TBA_percy_ancestor_3 = {
 }
 
 TBA_percy_1 = {
-	name = "Percival"
+	name = tba_percy_1_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
 	religion = "catholic"
@@ -1003,7 +1003,7 @@ TBA_percy_1 = {
 }
 
 TBA_percy_2 = {
-	name = "Percy"
+	name = tba_percy_2_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
 	religion = "catholic"
@@ -1041,7 +1041,7 @@ TBA_percy_2 = {
 # EVERYONE ELSE
 
 TBA_flashheart = {
-	name = "Rikard"
+	name = tba_flashheart_name
 	dna = TBA_flashheart
 	dynasty = dynasty_tbaflashheart
 	religion = "catholic"
@@ -1094,7 +1094,7 @@ TBA_flashheart = {
 
 
 TBA_melchy = {
-	name = "Melchett"
+	name = tba_melchy_name
 	dna = TBA_melchy
 	dynasty = dynasty_tbamelchett
 	religion = "catholic"
@@ -1137,7 +1137,7 @@ TBA_melchy = {
 
 
 TBA_bob = {
-	name = "Kate"
+	name = tba_bob_name
 	dna = TBA_bob
 	female = yes
 	sexuality = bisexual
@@ -1185,7 +1185,7 @@ TBA_bob = {
 }
 
 TBA_bob_father = {
-	name = "Father of Kate"
+	name = tba_bob_father_name
 	dna = TBA_bob
 	dynasty = dynasty_tbaparkhurst 
 	religion = "catholic"
@@ -1262,7 +1262,7 @@ TBA_ludwig = {
 
 
 TBA_eideard_macadder = {
-	name = "Eideard"
+	name = tba_eideard_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
 	religion = "insular_celtic"
@@ -1293,7 +1293,7 @@ TBA_eideard_macadder = {
 }
 
 TBA_adder_macadder = {
-	name = "Adder"
+	name = tba_adder_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
 	religion = "insular_celtic"
@@ -1316,7 +1316,7 @@ TBA_adder_macadder = {
 }
 
 TBA_eadbhard_macadder = {
-	name = "Eadbhárd"
+	name = tba_eadbhard_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
 	religion = "insular_celtic"
@@ -1339,7 +1339,7 @@ TBA_eadbhard_macadder = {
 }
 
 TBA_euan_macadder = {
-	name = "Euan"
+	name = tba_euan_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
 	religion = "insular_celtic"
@@ -1395,7 +1395,7 @@ TBA_angus_macangus = {
 }
 
 TBA_dougal_macangus = {
-	name = "Dougal"
+	name = tba_dougal_macangus_name
 	dna = TBA_macangus
 	dynasty = dynasty_tbamacangus
 	religion = "insular_celtic"

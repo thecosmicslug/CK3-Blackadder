@@ -93,7 +93,7 @@ tba_bookmark.blackadder = {
 		flavor = tba_bookmark.blackadder.queenofspain.b_flavor
 		add_internal_flag = special
 		highlight_portrait = scope:baldrick
-		highlight_portrait = scope:percy
+		#highlight_portrait = scope:percy
 		
 		add_character_modifier = {
 			modifier = abandoned_marriage_modifier

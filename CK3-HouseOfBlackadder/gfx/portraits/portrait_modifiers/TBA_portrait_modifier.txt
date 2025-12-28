@@ -18,7 +18,7 @@
                 mode = add
                 gene = beards
                 template = no_beard
-                accessory = no_beard
+                #accessory = no_beard
 				value = 0.0
             	}
             accessory = {
@@ -96,7 +96,7 @@ percy_portrait_modifier = {
                 mode = add
                 gene = beards
                 template = all_beards
-                accessory = no_beard
+                #accessory = no_beard
             	}
 
         }
@@ -244,7 +244,7 @@ ludwig_portrait_modifier = {
                 mode = add
                 gene = beards
                 template = no_beard
-                accessory = no_beard
+                #accessory = no_beard
 		value = 0.0
             	}
         }

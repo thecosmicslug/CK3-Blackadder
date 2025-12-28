@@ -1,4 +1,5 @@
-﻿k_england = {
+﻿
+k_england = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 	1178.1.1 = { change_development_level = 24 }
@@ -624,7 +625,7 @@ d_northumberland = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_northumberland = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
@@ -779,6 +780,7 @@ c_durham = {
 	}
 }
 
+#tiger-ignore(key=duplicate-item)
 c_cumberland = {
 	765.1.1 = {
 		holder = 205237
@@ -1349,7 +1351,7 @@ c_east_riding = {
 
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_west_riding = {
 	#Earls of Richmond used for this title
 	765.1.1 = {
@@ -2610,7 +2612,7 @@ d_canterbury = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_kent = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
@@ -2877,7 +2879,7 @@ b_canterbury = {
 	}
 }
 
-
+#tiger-ignore(key=duplicate-item)
 c_surrey = {
 	1178.1.1 = { change_development_level = 14 }
 

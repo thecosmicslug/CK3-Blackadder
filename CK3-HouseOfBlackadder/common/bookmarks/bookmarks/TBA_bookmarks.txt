@@ -62,7 +62,7 @@
 		history_id = TBA_flashheart
 		position = { 540 670 }
 		
-		animation = personality_ambitious 
+		animation = happiness
 		
 		character = {
 			name = "bookmark_chickenheart_bob"
@@ -108,7 +108,7 @@
 		history_id = TBA_euan_macadder
 		position = { 320 150 }
 		
-		animation = personality_ambitious }	
+		animation = paranoia }	
 }
 
 
