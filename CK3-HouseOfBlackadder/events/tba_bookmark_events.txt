@@ -2,28 +2,33 @@
 
 ### EDMUND BLACKADDER START EVENT
 tba_bookmark.blackadder = {
+
 	type = character_event
 	title = tba_bookmark.blackadder.queenofspain
 	desc = tba_bookmark.blackadder.queenofspain.desc
 	theme = dungeon
 	override_background = { reference = temple_church }
+
 	override_effect_2d = {
 		reference = flies
 	}
+
 	left_portrait = {
 		character = root
 		animation = stress
 	}
+
 	right_portrait = {
 		character = scope:infanta
 		animation = ecstasy
 	}
+
 	lower_right_portrait = {
-	character = scope:bob
+		character = scope:bob
 	}
 	
 	lower_center_portrait = {
-	character = scope:percy
+		character = scope:percy
 	}
 	
 	lower_left_portrait = {
@@ -47,18 +52,6 @@ tba_bookmark.blackadder = {
 				modifier = disgusted_opinion
 				opinion = -75
 			}
-		}
-	}
-
-	option = { # Accept your fate...
-		name = tba_bookmark.blackadder.queenofspain.c
-		flavor = tba_bookmark.blackadder.queenofspain.c_flavor
-		add_internal_flag = dangerous
-		marry = scope:infanta
-		add_legitimacy = 50
-		add_trait = depressed_1
-		ai_chance = {
-			base = 50
 		}
 	}
 
@@ -97,6 +90,18 @@ tba_bookmark.blackadder = {
 
 		ai_chance = {
 			base = 100
+		}
+	}
+
+	option = { # Accept your fate...
+		name = tba_bookmark.blackadder.queenofspain.c
+		flavor = tba_bookmark.blackadder.queenofspain.c_flavor
+		add_internal_flag = dangerous
+		marry = scope:infanta
+		add_legitimacy = 50
+		add_trait = depressed_1
+		ai_chance = {
+			base = 50
 		}
 	}
 
