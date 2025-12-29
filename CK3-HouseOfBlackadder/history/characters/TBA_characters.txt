@@ -105,12 +105,12 @@ TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
 		add_unpressed_claim = title:d_lothian
 		add_unpressed_claim = title:c_lothian
 		add_pressed_claim = title:c_surrey
-			remove_claim = title:d_normandy
-			remove_claim = title:c_saumur
-			remove_claim = title:c_anjou
-			remove_claim = title:c_tourraine 
+		remove_claim = title:d_normandy
+		remove_claim = title:c_saumur
+		remove_claim = title:c_anjou
+		remove_claim = title:c_tourraine 
 		give_nickname = nick_chickenheart
-			create_betrothal = character:TBA_infanta
+		create_betrothal = character:TBA_infanta
 	}
 	1190.6.10 = {
 	    death = { death_reason = death_accident_drowning }

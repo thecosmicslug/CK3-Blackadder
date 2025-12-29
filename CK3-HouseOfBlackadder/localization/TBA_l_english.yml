@@ -1,7 +1,5 @@
 ﻿l_english:
-death_sacrificed: "Sacrificed"
-death_accident_drowning: "Drowned"
-death_execution_beheading: "Beheaded"
+
 bm_1178_chickenheart: "The Chickenheart"
 bm_1178_chickenheart_desc: "Many historical events are incontrovertible fact. The fall of the Roman Empire. The First Crusade. The Erfurt latrine disaster. \n\nBut an oft-forgotten period of Medieval history relates to the vile contemporaries of the Angevin King Henry II, who accidentally unleashed upon the world one of the most conniving yet simultaneously pathetic dynasties known to mankind. \n\nFollowing the Great Revolt, The Angevin Empire in chaos, Henry was forced to make a number of hasty, ill-advised appointments. Historians agree that Edmund “Chickenheart” Blackadder’s elevation to the Earldom of West Riding was by FAR the worst among them, having gone to bed a bachelor wastrel one day, and waking a liege lord the next. \n\nOn the continent, the great Lord Flashheart was in Ypres about to begin the travels destined to make him famous, while elsewhere Ludwig “the Indestructible” lurked in the heart of the Holy Roman Empire, cultivating the nascent plot that may one day steal him a Kingdom. \n\nDid Edmund overcome his worst qualities to become a ruler more worthy than a bag of worms? Was Ludwig able trick and cajole his way to a throne? How many engaged women did Flash elope with? \n\n#bold All is revealed in this, a history never before told. Blackadder - Or, The History of the House of Blackadder in the Times of Richard the Lionheart.#!"
 
@@ -64,14 +62,21 @@ dynn_tbabastardadder: "Bastadder"
 dynn_tbamacadder: "MacAdder"
 dynn_tbamacangus: "MacAngus"
 
+# Traits
 trait_tba_blackadder_trait: "Blackadder"
 trait_tba_blackadder_trait_desc: "Characters appearing in the Blackadder Series."
 
+# Music
 tba_soundtrack_list: "The Black Adder Soundtrack"
 tba_s1: "The Black Adder S1 Theme"
 tba_backandforth: "Blackadder: Back and Forth Theme"
 
+# Deaths
+death_sacrificed: "Sacrificed"
+death_accident_drowning: "Drowned"
+death_execution_beheading: "Beheaded"
 
+# Events
 tba_bookmark.blackadder.queenofspain: "The Queen of Spain's Beard"
 tba_bookmark.blackadder.queenofspain.desc: "No more shall you be known as Blackadder the Bachelor of Basingstoke, your hand now promised to the Infanta, oh the Infanta, when first you heard her name, it was a dream! But now you have met her and she is a NIGHTMARE! Ranchorous, leecherous, and lewd! And with the face of a toad!"
 tba_bookmark.blackadder.queenofspain.a: "I have a cunning plan..."
@@ -79,7 +84,9 @@ tba_bookmark.blackadder.queenofspain.a_flavor: "My trusty dogsbody Baldrick has 
 tba_bookmark.blackadder.queenofspain.b: "Baldrick! Percy! Grab what you can quickly, we must run away!!"
 tba_bookmark.blackadder.queenofspain.b_flavor: "I have only just become a lord, and I can just as well abandon it all again, if I get to be rid of that incestious spanish infanta! we must grab what we can, and flee England at once on the first ferry from Dover!"
 tba_bookmark.blackadder.queenofspain.c: "You can't run forever, its time to accept your fate..."
+tba_bookmark.blackadder.queenofspain.c_flavor: "No use running away, I must accept my duty, and marry the Infanta. After all, its not as if I have any real choice in the matter..."
 
+# Names
 tba_blackaddercus_blackadder_name:0 ""Blackaddercus""
 tba_aetmund_blackadder_name:0 ""Æthmund""
 tba_edric_blackadder_name:0 ""Edric""
@@ -104,7 +111,6 @@ tba_darling_2_name:0 ""Kévin""
 tba_percy_ancestor_1_name:0 ""Parsifal""
 tba_percy_ancestor_2_name:0 ""Percignor""
 tba_percy_ancestor_3_name:0 ""Percifores""
-
 tba_percy_1_name:0 ""Percival""
 tba_percy_2_name:0 ""Percy""
 tba_flashheart_name:0 ""Rikard""

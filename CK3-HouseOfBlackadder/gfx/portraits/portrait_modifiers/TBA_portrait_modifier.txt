@@ -3,10 +3,10 @@
 	portrait_modifier = {
         dna_modifiers = {
             morph = {
-		mode = replace
-		gene = gene_balding_hair_effect
-		template = no_baldness
-		value = 1
+                mode = replace
+                gene = gene_balding_hair_effect
+                template = no_baldness
+                value = 1
 			}
  		accessory = {
                 mode = add

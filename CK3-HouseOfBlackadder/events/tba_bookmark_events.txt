@@ -50,6 +50,18 @@ tba_bookmark.blackadder = {
 		}
 	}
 
+	option = { # Accept your fate...
+		name = tba_bookmark.blackadder.queenofspain.c
+		flavor = tba_bookmark.blackadder.queenofspain.c_flavor
+		add_internal_flag = dangerous
+		marry = scope:infanta
+		add_legitimacy = 50
+		add_trait = depressed_1
+		ai_chance = {
+			base = 50
+		}
+	}
+
 	option = { # I have... a cunning plan...
 		name = tba_bookmark.blackadder.queenofspain.a
 		flavor = tba_bookmark.blackadder.queenofspain.a_flavor
@@ -201,14 +213,4 @@ tba_bookmark.blackadder = {
 		}
 	}
 
-	option = { # Accept your fate...
-		name = tba_bookmark.blackadder.queenofspain.c
-		add_internal_flag = dangerous
-		marry = scope:infanta
-		add_legitimacy = 50
-		add_trait = depressed_1
-		ai_chance = {
-			base = 50
-		}
-	}
 }
