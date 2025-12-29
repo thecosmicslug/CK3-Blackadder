@@ -1,8 +1,13 @@
 ﻿l_english:
 
+# Bookmarks
 bm_1178_chickenheart: "The Chickenheart"
 bm_1178_chickenheart_desc: "Many historical events are incontrovertible fact. The fall of the Roman Empire. The First Crusade. The Erfurt latrine disaster. \n\nBut an oft-forgotten period of Medieval history relates to the vile contemporaries of the Angevin King Henry II, who accidentally unleashed upon the world one of the most conniving yet simultaneously pathetic dynasties known to mankind. \n\nFollowing the Great Revolt, The Angevin Empire in chaos, Henry was forced to make a number of hasty, ill-advised appointments. Historians agree that Edmund “Chickenheart” Blackadder’s elevation to the Earldom of West Riding was by FAR the worst among them, having gone to bed a bachelor wastrel one day, and waking a liege lord the next. \n\nOn the continent, the great Lord Flashheart was in Ypres about to begin the travels destined to make him famous, while elsewhere Ludwig “the Indestructible” lurked in the heart of the Holy Roman Empire, cultivating the nascent plot that may one day steal him a Kingdom. \n\nDid Edmund overcome his worst qualities to become a ruler more worthy than a bag of worms? Was Ludwig able trick and cajole his way to a throne? How many engaged women did Flash elope with? \n\n#bold All is revealed in this, a history never before told. Blackadder - Or, The History of the House of Blackadder in the Times of Richard the Lionheart.#!"
 
+bm_1066_duc_blackadder: "Blackadder The Third"
+bm_1066_duc_blackadder_desc: "The fate of England is in crisis, but while William the Conqueror, Harold Godwinson, and Harald Hardrada are names that will be remembered throughout history, one name is oft forgotten: \n\n#bold Edmund III Blackadder!#! \n\nAmidst these warring giants, can he defend his ancestral home? Will you follow in his footsteps and bow to the Norman conquerors? Or will you join in against the harrying, and throw off the Norman yolk?"
+
+# Bookmarks Characters
 bookmark_chickenheart_blackadder: "Prince Edmund IV Blackadder"
 bookmark_chickenheart_blackadder_subheading: "Earl of West Riding"
 bookmark_chickenheart_blackadder_desc: "The young Edmund Blackadder, nephew of Henry II, recently landed for his glorious defection during the Great Revolt, is now saddled with the responsibilities that accompany his high station — and he is thoroughly unequipped to handle them. \n\nWith his bachelor days at an end, Edmund is faced with a choice: can he cunningly scheme, and navigate at court, to rise and meet the expectations made of him? \n\n #bold Or will he shirk his duties and seek his fortune upon the road, with his trusty, if ineffective dogsbody Baldrick, and the sniveling Percy at his side?#!"
@@ -22,9 +27,6 @@ bookmark_chickenheart_macadder: "Mormear Euan MacAdder"
 bookmark_chickenheart_macadder_desc: "Eaun MacAdder, #bold the most dangerous man ever to wear a skirt in Europe.#! \n\nHe believes himself the rightful king of England for the simpple reason of "Them eejits is muckin it all up", or something like that. \n\nWhile he may not possess the legitimacy of other pretenders, he certainly has the means to back up his claims: unrivaled skill with a broadsword, and a rabble-rousing ability one loud speech away from whipping his fellow highlanders into an invasion-frenzy."
 bookmark_chickenheart_macadder_subheading: "The MacAdders of Moray"
 
-bm_1066_duc_blackadder: "Blackadder The Third"
-bm_1066_duc_blackadder_desc: "The fate of England is in crisis, but while William the Conqueror, Harold Godwinson, and Harald Hardrada are names that will be remembered throughout history, one name is oft forgotten: \n\n#bold Edmund III Blackadder!#! \n\nAmidst these warring giants, can he defend his ancestral home? Will you follow in his footsteps and bow to the Norman conquerors? Or will you join in against the harrying, and throw off the Norman yolk?"
-
 bookmark_duc_blackadder_blackadder: "Edmund III Blackadder"
 bookmark_duc_blackadder_blackadder_desc: "Your lineage goes back centuries, having reigned in the hills of Surrey, but now this long lasting lineage of fools and liars is under threat from a force that musters on Norman shores... Despite his best efforts to secure his lineage, plague has struck down every potential heir to the title, will you and your twin-sister secure your lineage? Or will it croak under the Norman Yolk?"
 bookmark_duc_blackadder_blackadder_subheading: "Earl of Surrey"
@@ -36,6 +38,7 @@ d_laamp_flashheart_adj: "Lord Flashheart"
 d_laamp_indestructible: "Doppelgängers of Düsseldorf"
 d_laamp_indestructible_adj: "Prince Ludwig the Indestructible"
 
+# Nicknames
 nick_chickenheart: "Chickenheart"
 nick_chickenheart_desc: "While Richard was showered in renown for his bravery, and granted the title "The Lionheart", his cousin Lord Blackadder would be remembered as "The Chickenheart" for his cowardice."
 
@@ -51,22 +54,32 @@ nick_the_indestructible_desc: "Now you have proven yourself an evil genius, no-o
 nick_the_not_so_elder: "The Not-Quite-So-Elder"
 nick_the_not_so_elder_desc: "Unlike his father, he did not grow to be old."
 
+# Dynasties
 dynn_tbaflashheart: "Flashheart"
-dynn_motto_tbaflashheart: "Flash by name, Flash by nature. Woof!"
-
 dynn_tbapercy: "Percy"
 dynnp_tbad_: "D'"
 dynn_tbadarling: "Arling"
 dynn_tbablackadder: "Blackadder"
-dynn_motto_tbablackadder: "We have a cunning plan."
 dynn_tbaparkhurst: "Parkhurst"
 dynn_tbamelchett: "Melchett"
 dynn_tbaescalosa: "Escalosa"
-
 dynn_tbawhiteadder: "Whiteadder"
 dynn_tbabastardadder: "Bastadder"
 dynn_tbamacadder: "MacAdder"
 dynn_tbamacangus: "MacAngus"
+
+# Dynasties Mottos
+dynn_motto_tbaflashheart: "Flash by name, Flash by nature. Woof!"
+dynn_motto_tbablackadder: "We have a cunning plan."
+dynn_motto_tbapercy: "I say, old chap!"
+dynn_motto_tbadarling: "Darling to the core."
+dynn_motto_tbamelchett: "Melchett forever!"
+dynn_motto_tbaescalosa: "Honor and Spain."
+dynn_motto_tbaparkhurst: "Parkhurst prevails."
+dynn_motto_tbawhiteadder: "Pure as the driven snow."
+dynn_motto_tbabastardadder: "Bastadder by birth."
+dynn_motto_tbamacadder: "MacAdder till the end."
+dynn_motto_tbamacangus: "MacAngus abides."
 
 # Traits
 trait_tba_blackadder_trait: "Blackadder"

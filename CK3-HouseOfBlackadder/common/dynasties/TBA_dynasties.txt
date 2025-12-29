@@ -8,6 +8,7 @@ dynasty_tbadarling = {
 	prefix = "dynnp_tbad_"
 	name = "dynn_tbadarling"
 	culture = "french"
+	motto = "dynn_motto_tbadarling"
 }
 
 dynasty_tbaflashheart = {
@@ -19,19 +20,22 @@ dynasty_tbaflashheart = {
 dynasty_tbaparkhurst = {
 	name = "dynn_tbaparkhurst"
 	culture = "vlach"
+	motto = "dynn_motto_tbaparkhurst"
 }
 
 dynasty_tbamelchett = {
 	name = "dynn_tbamelchett"
-	culture = "english"
+	motto = "dynn_motto_tbamelchett"
 }
 
 dynasty_tbamacangus = {
 	name = "dynn_tbamacangus"
 	culture = "gaelic"
+	motto = "dynn_motto_tbamacangus"
 }
 
 dynasty_tbamacadder = {
 	name = "dynn_tbamacadder"
 	culture = "gaelic"
+	motto = "dynn_motto_tbamacadder"
 }
