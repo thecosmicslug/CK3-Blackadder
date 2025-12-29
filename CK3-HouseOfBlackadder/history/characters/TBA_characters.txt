@@ -1,5 +1,4 @@
 ﻿# PLAYABLE BLACKADDER
-
 TBA_edmund_i_blackadder = {
 	name = "Edmund"
 	dna = TBA_blackadder
@@ -1204,7 +1203,7 @@ TBA_bob_father = {
 		birth = yes
 	}
 	
-		1178.1.1 = {
+	1178.1.1 = {
 		employer = TBA_flashheart
 	}
 	
@@ -1240,9 +1239,9 @@ TBA_ludwig = {
 	1159.6.11 = {
 		birth = yes
 		effect = { add_character_flag = do_not_generate_starting_family }
-			give_nickname = nick_the_indestructible
-			add_unpressed_claim = title:k_england
-			add_trait = scarred
+		give_nickname = nick_the_indestructible
+		add_unpressed_claim = title:k_england
+		add_trait = scarred
 		effect = {
 			add_trait_xp = {
 				trait = scarred
@@ -1254,7 +1253,8 @@ TBA_ludwig = {
 	1178.1.1 = {
         set_relation_rival = {target = character:TBA_plantagenet_blackadder}
 		set_relation_nemesis = {target = character:204500}
-		}
+	}
+
 	1190.6.10 = {
 		death = { death_reason = death_sacrificed } 
 	}
@@ -1283,17 +1283,18 @@ TBA_eideard_macadder = {
 	trait = reckless
 	trait = education_martial_prowess_2
 		
-		1029.1.6 = {
-	    	birth = yes
-			employer = 18765
-		}
-			
-		1100.4.2 = {
-	    	death = {death_reason = death_old_age }
-		}
+	1029.1.6 = {
+		birth = yes
+		#employer = 18765
+	}
+		
+	1100.4.2 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 TBA_adder_macadder = {
+
 	name = tba_adder_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
@@ -1306,18 +1307,19 @@ TBA_adder_macadder = {
 	trait = wrathful
 	trait = stuttering
 		
-		1123.1.6 = {
-	    	birth = yes
-			add_pressed_claim = title:c_outer_hebrides
-			set_relation_rival = {target = character:TBA_angus_macangus}
-		}
-			
-		1171.12.24 = {
-	    	death = {death_reason = death_old_age}
-		}
+	1123.1.6 = {
+		birth = yes
+		add_pressed_claim = title:c_outer_hebrides
+		set_relation_rival = {target = character:TBA_angus_macangus}
+	}
+		
+	1171.12.24 = {
+		death = {death_reason = death_old_age}
+	}
 }
 
 TBA_eadbhard_macadder = {
+
 	name = tba_eadbhard_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
@@ -1332,16 +1334,17 @@ TBA_eadbhard_macadder = {
 	trait = infertile
 	trait = wheezing
 		
-		1101.1.6 = {
-	    	birth = yes
-		}
-			
-		1124.12.24 = {
-	    	death = {death_reason = death_old_age}
-		}
+	1101.1.6 = {
+		birth = yes
+	}
+		
+	1124.12.24 = {
+		death = {death_reason = death_old_age}
+	}
 }
 
 TBA_euan_macadder = {
+
 	name = tba_euan_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
@@ -1365,20 +1368,21 @@ TBA_euan_macadder = {
 	trait = reckless
 	trait = education_martial_prowess_3
 		
-		1152.1.6 = {
-	    birth = yes
-			add_pressed_claim = title:c_outer_hebrides
-			add_pressed_claim = title:c_argyll
-			add_unpressed_claim = title:k_england
-			set_relation_rival = {target = character:TBA_dougal_macangus}
-		}
-			
-		1190.6.10 = {
-	    	death = yes
-		}
+	1152.1.6 = {
+		birth = yes
+		add_pressed_claim = title:c_outer_hebrides
+		add_pressed_claim = title:c_argyll
+		add_unpressed_claim = title:k_england
+		set_relation_rival = {target = character:TBA_dougal_macangus}
+	}
+		
+	1190.6.10 = {
+		death = yes
+	}
 }
 
 TBA_angus_macangus = {
+
 	name = "Angus"
 	dna = TBA_macangus
 	dynasty = dynasty_tbamacangus
@@ -1388,17 +1392,18 @@ TBA_angus_macangus = {
 	trait = stubborn
 	trait = wrathful
 		
-		1138.1.27 = {
-	    	birth = yes
-			add_pressed_claim = title:c_argyll
-		}
-			
-		1178.12.3 = {
-	    	death = {death_reason = death_old_age}
-		}
+	1138.1.27 = {
+		birth = yes
+		add_pressed_claim = title:c_argyll
+	}
+		
+	1178.12.3 = {
+		death = {death_reason = death_old_age}
+	}
 }
 
 TBA_dougal_macangus = {
+
 	name = tba_dougal_macangus_name
 	dna = TBA_macangus
 	dynasty = dynasty_tbamacangus
@@ -1409,16 +1414,17 @@ TBA_dougal_macangus = {
 	trait = stubborn
 	trait = wrathful
 		
-		1155.1.27 = {
-	    	birth = yes
-		}
-			
-		1190.6.10 = {
-	    	death = yes
-		}
+	1155.1.27 = {
+		birth = yes
+	}
+		
+	1190.6.10 = {
+		death = yes
+	}
 }
 
 TBA_infanta = {
+
 	name = "Maria"
 	female = yes
 	dna = TBA_infanta
@@ -1431,23 +1437,24 @@ TBA_infanta = {
 	trait = gregarious
 	trait = honest
 	trait = beauty_bad_1
-		1141.5.18 = {
-	    	birth = yes
-		}
-		1190.6.10 = {
-	    	death = yes
-		}
+
+	1141.5.18 = {
+		birth = yes
+	}
+	1190.6.10 = {
+		death = yes
+	}
 }
 
-
-
 # HENRY IN THE NAUGHTY CORNER
-
+# Henry II
 204500 = {
-	name = "Henry" # Henry II
+
+	name = "Henry" 
 	dna = TBA_brian_blessed
 	dynasty_house = house_plantagenet
 	culture = norman
+
 	1133.3.5 = {
 		birth = "1133.3.5"
 	}
