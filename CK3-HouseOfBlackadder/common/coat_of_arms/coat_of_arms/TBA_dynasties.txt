@@ -134,7 +134,7 @@ house_tbawhiteadder = {
 	color3=white
 }
 
-dynasty_tbamacadder ={
+house_tbamacadder ={
 	pattern="pattern_waves_01.dds"
 	color1=rgb { 203 149 69 }
 	color2=rgb { 30 61 94 }

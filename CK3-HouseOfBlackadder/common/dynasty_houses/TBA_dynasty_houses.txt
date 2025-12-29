@@ -4,8 +4,13 @@
 }
 
 house_tbabastardadder = {
-		name = "dynn_tbabastardadder"
-		dynasty = dynasty_tbablackadder
+	name = "dynn_tbabastardadder"
+	dynasty = dynasty_tbablackadder
+}
+
+house_tbamacadder = {
+    dynasty = dynasty_tbamacadder
+    name = "dynn_tbamacadder"
 }
 
 house_tbapercy = {
@@ -14,7 +19,7 @@ house_tbapercy = {
 }
 
 house_tbaescalosa = {
-		name = "dynn_tbaescalosa"
-		dynasty = 442
+	name = "dynn_tbaescalosa"
+	dynasty = 442
 }
 
