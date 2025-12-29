@@ -27,11 +27,11 @@ dynasty_tbamelchett = {
 }
 
 dynasty_tbamacangus = {
-		name = "dynn_tbamacangus"
-		culture = "gaelic"
+	name = "dynn_tbamacangus"
+	culture = "gaelic"
 }
 
 dynasty_tbamacadder = {
-		name = "dynn_tbamacadder"
-		culture = "gaelic"
+	name = "dynn_tbamacadder"
+	culture = "gaelic"
 }
