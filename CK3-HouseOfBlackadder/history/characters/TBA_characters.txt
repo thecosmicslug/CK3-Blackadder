@@ -224,7 +224,7 @@ TBA_eunuch_blackadder = {
 	
 	987.1.6 = {
 		birth = yes
-		trait = eunuch
+		trait = eunuch_1
 		give_nickname = nick_the_not_so_elder
 	}
 	
@@ -403,7 +403,7 @@ TBA_snou_blackadder = {
 TBA_bastard_filbert_blackadder = {
 
 	name = "Filbert"
-	dynasty = dynasty_tbablackadder
+	#dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbabastardadder
 	religion = "catholic"
 	culture = "english"
@@ -426,7 +426,7 @@ TBA_bastard_filbert_blackadder = {
 TBA_bastard_filip_blackadder = {
 
 	name = "Filip"
-	dynasty = dynasty_tbablackadder
+	#dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbabastardadder
 	religion = "catholic"
 	culture = "english"
@@ -448,7 +448,7 @@ TBA_bastard_fiona_blackadder = {
 
 	name = "Fiona"
 	female = yes
-	dynasty = dynasty_tbablackadder
+	#dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbabastardadder
 	religion = "catholic"
 	culture = "english"
@@ -543,7 +543,7 @@ TBA_eddie_blackadder = {
 	}
 
 	1064.1.6 = {
-		trait = sickly
+		#trait = sickly
 	    death = { death_reason = death_ill }
 	}
 }
@@ -601,7 +601,7 @@ TBA_eden_whiteadder = {
 
 	name = tba_eden_whiteadder_name
 	female = yes
-	dynasty = dynasty_tbablackadder
+	#dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbawhiteadder 
 	religion = "catholic"
 	culture = "english"
@@ -1184,7 +1184,7 @@ TBA_melchy = {
 	1178.1.1 = {
         set_relation_friend = {target = character:204500}
 		set_relation_rival = {target = character:TBA_plantagenet_blackadder}
-		employer = 204500
+		#employer = 204500
 		give_council_position = councillor_court_chaplain
 		add_trait = lifestyle_reveler
 		effect = {
@@ -1333,7 +1333,7 @@ TBA_eideard_macadder = {
 
 	name = tba_eideard_macadder_name
 	dna = TBA_macadder
-	dynasty = dynasty_tbamacadder
+	#dynasty = dynasty_tbamacadder
 	dynasty_house = house_tbamacadder
 	religion = "insular_celtic"
 	culture = "gaelic"
@@ -1366,7 +1366,7 @@ TBA_adder_macadder = {
 
 	name = tba_adder_macadder_name
 	dna = TBA_macadder
-	dynasty = dynasty_tbamacadder
+	#dynasty = dynasty_tbamacadder
 	dynasty_house = house_tbamacadder
 	religion = "insular_celtic"
 	culture = "gaelic"
@@ -1391,7 +1391,7 @@ TBA_eadbhard_macadder = {
 
 	name = tba_eadbhard_macadder_name
 	dna = TBA_macadder
-	dynasty = dynasty_tbamacadder
+	#dynasty = dynasty_tbamacadder
 	dynasty_house = house_tbamacadder
 	religion = "insular_celtic"
 	culture = "gaelic"
@@ -1416,7 +1416,7 @@ TBA_euan_macadder = {
 
 	name = tba_euan_macadder_name
 	dna = TBA_macadder
-	dynasty = dynasty_tbamacadder
+	#dynasty = dynasty_tbamacadder
 	dynasty_house = house_tbamacadder
 	religion = "insular_celtic"
 	culture = "gaelic"
