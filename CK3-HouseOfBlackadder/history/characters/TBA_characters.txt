@@ -1,5 +1,6 @@
 ﻿# PLAYABLE BLACKADDER
 TBA_edmund_i_blackadder = {
+
 	name = "Edmund"
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -12,20 +13,21 @@ TBA_edmund_i_blackadder = {
 	learning = 0
 	trait = cynical
 	trait = callous
-	trait = sadistic
+	#trait = sadistic
 	trait = lisping
 	trait = education_martial_1
 		
-		835.1.6 = {
+	835.1.6 = {
 	    birth = yes
-		}
+	}
 		
-		872.2.20 = {
+	872.2.20 = {
 		death = { death_reason = death_gout_ridden }
-		}
+	}
 }
 
 TBA_duc_blackadder = { # BLACKADDER 1066 - EDMUND III
+
 	name = "Edmund"
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -47,31 +49,32 @@ TBA_duc_blackadder = { # BLACKADDER 1066 - EDMUND III
 	trait = twin
 	trait = education_martial_1
 		
-		1034.1.6 = {
-	    	birth = yes
-			effect = { add_character_flag = do_not_generate_starting_family }
-		}
-		
-		1050.6.9 = {
-	    	add_spouse = TBA_georgina_blackadder
-		}
-		
-		1060.4.20 = {
-	    	trait = adulterer
-			give_nickname = nick_the_lecher
-		}
-		
-		1066.10.14 = {
-			trait = murderer
-			give_nickname = nick_the_betrayer
-		}
-		
-		1097 = {
-			death = { death_reason = death_old_age }
-		}
+	1034.1.6 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	
+	1050.6.9 = {
+		add_spouse = TBA_georgina_blackadder
+	}
+	
+	1060.4.20 = {
+		trait = adulterer
+		give_nickname = nick_the_lecher
+	}
+	
+	1066.10.14 = {
+		trait = murderer
+		give_nickname = nick_the_betrayer
+	}
+	
+	1097 = {
+		death = { death_reason = death_old_age }
+	}
 }
 
-TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart 
+TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
+
 	name = "Edmund"
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -94,12 +97,12 @@ TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
 	trait = wild_oat
 	trait = education_intrigue_2
 
-	
 	1155.1.6 = {
 	    birth = yes
 		effect = { add_character_flag = do_not_generate_starting_family }
 	}
-        1174.11.30 = {
+
+    1174.11.30 = {
 		set_relation_lover = character:TBA_bob
 		add_unpressed_claim = title:d_lothian
 		add_unpressed_claim = title:c_lothian
@@ -111,6 +114,7 @@ TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
 		give_nickname = nick_chickenheart
 		create_betrothal = character:TBA_infanta
 	}
+
 	1190.6.10 = {
 	    death = { death_reason = death_accident_drowning }
 	}
@@ -119,6 +123,7 @@ TBA_plantagenet_blackadder = { # BLACKADDER 1178 - Chickenheart
 # FILLER BLACKADDERS
 
 TBA_blackaddercus_blackadder = {
+
 	name = tba_blackaddercus_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -129,17 +134,18 @@ TBA_blackaddercus_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		101.1.6 = {
-	    	birth = yes
-			give_nickname = nick_the_culture_wall
-		}
-		
-		142.12.25 = {
-	    	death = {death_reason = death_vanished }
-		}
+	101.1.6 = {
+		birth = yes
+		give_nickname = nick_the_culture_wall
+	}
+	
+	142.12.25 = {
+		death = {death_reason = death_vanished }
+	}
 }
 
 TBA_edmund_ii_blackadder = {
+
 	name = "Edmund"
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -151,17 +157,18 @@ TBA_edmund_ii_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		867.1.6 = {
-	    	birth = yes
-		}
-		
-		918.8.7 = {
-	    	death = {death_reason = death_old_age }
-		}
+	867.1.6 = {
+		birth = yes
+	}
+	
+	918.8.7 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 
 TBA_aetmund_blackadder = {
+
 	name = tba_aetmund_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -173,16 +180,17 @@ TBA_aetmund_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		894.1.6 = {
-	    	birth = yes
-		}
-		
-		963.7.11 = {
-	    	death = {death_reason = death_old_age }
-		}
+	894.1.6 = {
+		birth = yes
+	}
+	
+	963.7.11 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 TBA_edric_blackadder = {
+
 	name = tba_edric_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -194,17 +202,18 @@ TBA_edric_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		913.1.6 = {
-	    	birth = yes
-			give_nickname = nick_the_elder
-		}
-		
-		1033.9.11 = {
-	    	death = {death_reason = death_old_age }
-		}
+	913.1.6 = {
+		birth = yes
+		give_nickname = nick_the_elder
+	}
+	
+	1033.9.11 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 TBA_eunuch_blackadder = {
+
 	name = tba_edric_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -213,19 +222,20 @@ TBA_eunuch_blackadder = {
 	father = TBA_edric_blackadder
 	trait = lisping
 	
-		987.1.6 = {
-	    	birth = yes
-			trait = eunuch
-			give_nickname = nick_the_not_so_elder
-		}
-		
-		1000.12.25 = {
-	    	death = {death_reason = death_ill}
-			trait = pneumonic
-		}
+	987.1.6 = {
+		birth = yes
+		trait = eunuch
+		give_nickname = nick_the_not_so_elder
+	}
+	
+	1000.12.25 = {
+		death = {death_reason = death_ill}
+		trait = pneumonic
+	}
 }
 
 TBA_edgar_blackadder = {
+
 	name = "Edgar"
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -237,16 +247,18 @@ TBA_edgar_blackadder = {
 	trait = arrogant
 	trait = lisping
 	trait = hunchbacked
-		932.1.6 = {
-	    	birth = yes
-			give_nickname = nick_the_hunchback
-		}
-			989.12.25 = {
-	    	death = {death_reason = death_old_age }
-		}
+
+	932.1.6 = {
+		birth = yes
+		give_nickname = nick_the_hunchback
+	}
+		989.12.25 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 TBA_edwynth_blackadder = {
+
 	name = tba_edwynth_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -258,17 +270,18 @@ TBA_edwynth_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		967.1.6 = {
-	    	birth = yes
-			give_nickname = nick_the_joyless
-		}
+	967.1.6 = {
+		birth = yes
+		give_nickname = nick_the_joyless
+	}
 
-		1010.3.4 = {
-	    	death = { death_reason = death_natural_causes }
-		}
+	1010.3.4 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 TBA_edmond_blackadder = {
+
 	name = tba_edmond_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -280,17 +293,18 @@ TBA_edmond_blackadder = {
 	trait = arrogant
 	trait = lisping
 		
-		985.1.6 = {
-	    	birth = yes
-		}
+	985.1.6 = {
+		birth = yes
+	}
 
-		1004.7.12 = {
-			trait = pneumonic	
-	    	death = { death_reason = death_ill }
-		}
+	1004.7.12 = {
+		trait = pneumonic	
+		death = { death_reason = death_ill }
+	}
 }
 
 TBA_edbert_blackadder = {
+
 	name = tba_edbert_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -299,16 +313,17 @@ TBA_edbert_blackadder = {
 	father = TBA_edwynth_blackadder
 	trait = lisping
 		
-		995.1.6 = {
-	    	birth = yes
-		}
+	995.1.6 = {
+		birth = yes
+	}
 
-		1055.12.25 = {
-	    	death = { death_reason = death_old_age }
-		}
+	1055.12.25 = {
+		death = { death_reason = death_old_age }
+	}
 }
 
 TBA_chiswick_blackadder = {
+
 	name = tba_chiswick_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbamacadder
@@ -321,17 +336,18 @@ TBA_chiswick_blackadder = {
 	trait = stuttering
 	trait = lunatic_genetic
 		
-		962.1.6 = {
-	    	birth = yes
-			give_nickname = nick_the_insane
-		}
-		
-		1061.12.25 = {
-	    	death = {death_reason = death_old_age }
-		}
+	962.1.6 = {
+		birth = yes
+		give_nickname = nick_the_insane
+	}
+	
+	1061.12.25 = {
+		death = {death_reason = death_old_age }
+	}
 }
 
 TBA_edna_blackadder = {
+
 	name = "Edna"
 	female = yes
 	dna = TBA_blackadder
@@ -351,21 +367,22 @@ TBA_edna_blackadder = {
 	trait = twin
 	trait = education_diplomacy_1
 		
-		1034.1.6 = {
-	    birth = yes
-		}
+	1034.1.6 = {
+		birth = yes
+	}
+
+	1066.10.14 = {
+		trait = devoted
+		give_nickname = nick_the_chaste
+	}
 	
-        1066.10.14 = {
-			trait = devoted
-			give_nickname = nick_the_chaste
-		}
-		
-		1100.1.6 = {
-	    	death = { death_reason = death_old_age }
-		}
+	1100.1.6 = {
+		death = { death_reason = death_old_age }
+	}
 }
 
 TBA_snou_blackadder = {
+
 	name = tba_snou_blackadder_name
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -373,17 +390,18 @@ TBA_snou_blackadder = {
 	mother = TBA_edna_blackadder
 	trait = lisping
 		
-		1070.1.6 = {
-	    	birth = yes
-			trait = bastard
-		}
-	
-        1085.12.25 = {
-	    	death = { death_reason = death_vanished }
-		}
+	1070.1.6 = {
+		birth = yes
+		trait = bastard
+	}
+
+	1085.12.25 = {
+		death = { death_reason = death_vanished }
+	}
 }
 
-TBA_bastard_filbert_blackadder = { 
+TBA_bastard_filbert_blackadder = {
+
 	name = "Filbert"
 	dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbabastardadder
@@ -395,17 +413,18 @@ TBA_bastard_filbert_blackadder = {
 	trait = craven
 	trait = arrogant
 
-		1060.4.20 = {
-	    	birth = yes
-			trait = bastard 
-			give_nickname = nick_the_bastard
-		}
-		1092.9.11 = {
-			death = yes
-		}
+	1060.4.20 = {
+		birth = yes
+		trait = bastard 
+		give_nickname = nick_the_bastard
+	}
+	1092.9.11 = {
+		death = yes
+	}
 }
 
-TBA_bastard_filip_blackadder = { 
+TBA_bastard_filip_blackadder = {
+
 	name = "Filip"
 	dynasty = dynasty_tbablackadder
 	dynasty_house = house_tbabastardadder
@@ -417,15 +436,16 @@ TBA_bastard_filip_blackadder = {
 	trait = craven
 	trait = arrogant
 
-		1087.1.6 = {
-	    	birth = yes
-		}
-		1141.9.11 = {
-	    	death = yes
-		}
+	1087.1.6 = {
+		birth = yes
+	}
+	1141.9.11 = {
+		death = yes
+	}
 }
 
-TBA_bastard_fiona_blackadder = { 
+TBA_bastard_fiona_blackadder = {
+
 	name = "Fiona"
 	female = yes
 	dynasty = dynasty_tbablackadder
@@ -438,31 +458,35 @@ TBA_bastard_fiona_blackadder = {
 	trait = craven
 	trait = arrogant
 
-		1120.1.6 = {
-	    	birth = yes
-		}
-		1190.9.11 = {
-	    	death = yes
-		}
+	1120.1.6 = {
+		birth = yes
+	}
+	1190.9.11 = {
+		death = yes
+	}
 }
 
 TBA_georgina_blackadder = {
+
 	name = tba_georgina_blackadder
 	female = yes
 	dna = TBA_hugh
 	religion = "catholic"
 	culture = "french"
 	sexuality = "bisexual"
-		1025.6.11 = {
+
+	1025.6.11 = {
 	    birth = yes
 	}
-		1084.12.2 = {
+
+	1084.12.2 = {
 		trait = gout_ridden
 	    death = { death_reason = death_gout_ridden }
-		}
+	}
 }
 
-TBA_ed_blackadder = { 
+TBA_ed_blackadder = {
+
 	name = tba_ed_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -470,17 +494,20 @@ TBA_ed_blackadder = {
 	culture = "anglo_saxon"
 	father = TBA_duc_blackadder
 	mother = TBA_georgina_blackadder
+
 	trait = lisping
 		1051.1.6 = {
 	    birth = yes
 	}
-		1057.9.11 = {
+
+	1057.9.11 = {
 		trait = ill
 	    death = { death_reason = death_ill }
-		}
+	}
 }
 
-TBA_edd_blackadder = { 
+TBA_edd_blackadder = {
+
 	name = tba_edd_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -489,16 +516,19 @@ TBA_edd_blackadder = {
 	father = TBA_duc_blackadder
 	mother = TBA_georgina_blackadder
 	trait = lisping
-		1063.1.6 = {
+
+	1063.1.6 = {
 	    birth = yes
 	}
-		1065.12.20 = {
+
+	1065.12.20 = {
 		trait = measles
 	    death = { death_reason = death_ill }
-		}
+	}
 }
 
-TBA_eddie_blackadder = { 
+TBA_eddie_blackadder = {
+
 	name = tba_eddie_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -507,16 +537,19 @@ TBA_eddie_blackadder = {
 	father = TBA_duc_blackadder
 	mother = TBA_georgina_blackadder
 	trait = lisping
-		1064.1.6 = {
+
+	1064.1.6 = {
 	    birth = yes
 	}
-		1064.1.6 = {
+
+	1064.1.6 = {
 		trait = sickly
 	    death = { death_reason = death_ill }
-		}
+	}
 }
 
-TBA_edwin_blackadder = { 
+TBA_edwin_blackadder = {
+
 	name = "Edwin"
 	dynasty = dynasty_tbablackadder
 	religion = "catholic"
@@ -528,16 +561,18 @@ TBA_edwin_blackadder = {
 	trait = craven
 	trait = arrogant
 		
-		1067.1.6 = {
+	1067.1.6 = {
 	    birth = yes
 		give_nickname = nick_the_dry
 	}
-		1122.2.7 = {
+
+	1122.2.7 = {
 	    death = {death_reason = death_old_age }
-		}
+	}
 }
 
-TBA_eddard_blackadder = { 
+TBA_eddard_blackadder = {
+
 	name = tba_eddard_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -549,19 +584,21 @@ TBA_eddard_blackadder = {
 	trait = craven
 	trait = arrogant
 		
-		1102.1.6 = {
+	1102.1.6 = {
 	    birth = yes
 		give_nickname = nick_the_headless
 	}
-		1174.11.30 = {
+
+	1174.11.30 = {
 		death = { death_reason = death_execution_beheading
 				  killer = 204500
 				}  
-		}
+	}
 
 }
 
-TBA_eden_whiteadder = { 
+TBA_eden_whiteadder = {
+
 	name = tba_eden_whiteadder_name
 	female = yes
 	dynasty = dynasty_tbablackadder
@@ -574,15 +611,17 @@ TBA_eden_whiteadder = {
 	trait = wrathful
 	trait = devoted
 		
-		1109.1.6 = {
+	1109.1.6 = {
 	    birth = yes
 	}
-		1180.12.25 = {
+
+	1180.12.25 = {
 	    death = {death_reason = death_natural_causes }
-		}
+	}
 }
 
-TBA_deadkid_blackadder = { 
+TBA_deadkid_blackadder = {
+
 	name = tba_deadkid_blackadder_name
 	dna = TBA_blackadder
 	dynasty = dynasty_tbablackadder
@@ -591,16 +630,18 @@ TBA_deadkid_blackadder = {
 	father = TBA_eddard_blackadder
 	trait = lisping
 		
-		1132.1.6 = {
+	1132.1.6 = {
 	    birth = yes
 	}
-		1135.12.25 = {
+
+	1135.12.25 = {
 		trait = pneumonic
 	    death = { death_reason = death_ill }
-		}
+	}
 }
 
 TBA_lady_blackadder = {
+
 	name = "Gertrude"
 	female = yes
 	sexuality = homosexual
@@ -620,16 +661,18 @@ TBA_lady_blackadder = {
 	trait = education_intrigue_3
 	father = TBA_eddard_blackadder
 		
-		1127.1.6 = {
+	1127.1.6 = {
 	    birth = yes
 		give_nickname = nick_the_devil
-		}
-		1190.6.10 = {
+	}
+
+	1190.6.10 = {
 	    death = yes
-		}
+	}
 }
 
 TBA_lady_whiteadder = {
+
 	name = "Miriam"
 	female = yes
 	dynasty_house = house_tbawhiteadder 
@@ -648,19 +691,20 @@ TBA_lady_whiteadder = {
 	trait = devoted
 	mother = TBA_eden_whiteadder
 		
-		1141.5.18 = {
+	1141.5.18 = {
 	    birth = yes
 		give_nickname = nick_lacks_laughs
 	}
 
-		1190.6.10 = {
+	1190.6.10 = {
 	    death = yes
-		}
+	}
 }
 
 # BALDRICK
 
 TBA_baldrick_I = {
+
 	name = "Baldrick"
 	dna = TBA_baldrick
 	religion = "catholic"
@@ -684,12 +728,12 @@ TBA_baldrick_I = {
 		effect = { add_character_flag = do_not_generate_starting_family }
 	}
 	867.1.1 = {
-                set_relation_best_friend = {target = character:TBA_edmund_i_blackadder}
+        set_relation_best_friend = {target = character:TBA_edmund_i_blackadder}
 	} 
 
 	867.1.1 = {
-	employer = TBA_edmund_i_blackadder
-	give_council_position = councillor_steward
+		employer = TBA_edmund_i_blackadder
+		give_council_position = councillor_steward
 	} 
 
 	912.12.25 = {
@@ -698,6 +742,7 @@ TBA_baldrick_I = {
 }
 
 TBA_baldrick_II = {
+
 	name = "Baldrick"
 	dna = TBA_baldrick
 	religion = "catholic"
@@ -724,12 +769,12 @@ TBA_baldrick_II = {
 		effect = { add_character_flag = do_not_generate_starting_family }
 	}
 	1055.12.25 = {
-                set_relation_best_friend = {target = character:TBA_duc_blackadder}
+        set_relation_best_friend = {target = character:TBA_duc_blackadder}
 	} 
 
 	1055.12.25 = {
-	employer = TBA_duc_blackadder
-	give_council_position = councillor_steward
+		employer = TBA_duc_blackadder
+		give_council_position = councillor_steward
 	} 
 
 	1069.5.19 = {
@@ -738,6 +783,7 @@ TBA_baldrick_II = {
 }
 
 TBA_baldrick_III = {
+
 	name = "Baldrick"
 	dna = TBA_baldrick
 	religion = "catholic"
@@ -764,12 +810,12 @@ TBA_baldrick_III = {
 		effect = { add_character_flag = do_not_generate_starting_family }
 	}
 	1174.11.30 = {
-                set_relation_best_friend = {target = character:TBA_plantagenet_blackadder}
+        set_relation_best_friend = {target = character:TBA_plantagenet_blackadder}
 	} 
 
 	1178.1.1 = {
-	employer = TBA_plantagenet_blackadder
-	give_council_position = councillor_steward
+		employer = TBA_plantagenet_blackadder
+		give_council_position = councillor_steward
 	} 
 
 	1188.6.10 = {
@@ -780,6 +826,7 @@ TBA_baldrick_III = {
 # PERCY & D'ARLING
 
 TBA_darling_ancestor_1 = {
+
 	name = tba_darling_ancestor_1_name
 	dna = TBA_percy
 	dynasty = dynasty_tbadarling
@@ -793,15 +840,18 @@ TBA_darling_ancestor_1 = {
 	996.11.18 = {
 		birth = yes	
 	}
-		1016.1.5 = {
+
+	1016.1.5 = {
 		add_pressed_claim = title:c_dijon
-		}
+	}
+
 	1052.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 TBA_darling_ancestor_2 = {
+
 	name = tba_darling_ancestor_2_name
 	dna = TBA_percy
 	dynasty = dynasty_tbadarling
@@ -823,6 +873,7 @@ TBA_darling_ancestor_2 = {
 }
 
 TBA_darling_ancestor_3 = {
+
 	name = tba_darling_ancestor_3_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
@@ -842,6 +893,7 @@ TBA_darling_ancestor_3 = {
 }
 
 TBA_darling_ancestor_4 = {
+
 	name = tba_darling_ancestor_4_name
 	dna = TBA_percy
 	female = yes
@@ -863,6 +915,7 @@ TBA_darling_ancestor_4 = {
 }
 
 TBA_darling_1 = {
+
 	name = tba_darling_1_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
@@ -882,6 +935,7 @@ TBA_darling_1 = {
 }
 
 TBA_darling_2 = {
+
 	name = tba_darling_2_name
 	dynasty = dynasty_tbadarling
 	religion = "catholic"
@@ -904,6 +958,7 @@ TBA_darling_2 = {
 }
 
 TBA_percy_ancestor_1 = {
+
 	name = tba_percy_ancestor_1_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
@@ -920,11 +975,11 @@ TBA_percy_ancestor_1 = {
 		birth = yes
 		add_pressed_claim = title:c_dijon
 	}
-		1055.12.25 = {
+
+	1055.12.25 = {
 		employer = TBA_duc_blackadder
-		
 		give_council_position = councillor_steward
-		} 
+	} 
 	
 	1073.12.25 = {
 		death = { death_reason = death_old_age }
@@ -932,6 +987,7 @@ TBA_percy_ancestor_1 = {
 }
 
 TBA_percy_ancestor_2 = {
+
 	name = tba_percy_ancestor_2_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
@@ -958,6 +1014,7 @@ TBA_percy_ancestor_2 = {
 
 
 TBA_percy_ancestor_3 = {
+
 	name = tba_percy_ancestor_3_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
@@ -979,6 +1036,7 @@ TBA_percy_ancestor_3 = {
 }
 
 TBA_percy_1 = {
+
 	name = tba_percy_1_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
@@ -1002,6 +1060,7 @@ TBA_percy_1 = {
 }
 
 TBA_percy_2 = {
+
 	name = tba_percy_2_name
 	dna = TBA_percy
 	dynasty_house = house_tbapercy
@@ -1024,14 +1083,17 @@ TBA_percy_2 = {
 	1156.11.18 = {
 		birth = yes
 	}
+
 	1174.11.30 = {
 		add_pressed_claim = title:c_northumberland
-                set_relation_friend = {target = character:TBA_plantagenet_blackadder}
+        set_relation_friend = {target = character:TBA_plantagenet_blackadder}
 	}
+
 	1178.1.1 = {
-	employer = TBA_plantagenet_blackadder
-	give_council_position = councillor_chancellor
-	} 
+		employer = TBA_plantagenet_blackadder
+		give_council_position = councillor_chancellor
+	}
+
 	1190.6.10 = {
 		death = { death_reason = death_accident_drowning } 
 	}
@@ -1040,6 +1102,7 @@ TBA_percy_2 = {
 # EVERYONE ELSE
 
 TBA_flashheart = {
+
 	name = tba_flashheart_name
 	dna = TBA_flashheart
 	dynasty = dynasty_tbaflashheart
@@ -1086,6 +1149,7 @@ TBA_flashheart = {
 			}
 		}
 	  }
+
 	1190.6.10 = {
 		death = yes
 	}	
@@ -1093,6 +1157,7 @@ TBA_flashheart = {
 
 
 TBA_melchy = {
+
 	name = tba_melchy_name
 	dna = TBA_melchy
 	dynasty = dynasty_tbamelchett
@@ -1136,6 +1201,7 @@ TBA_melchy = {
 
 
 TBA_bob = {
+
 	name = tba_bob_name
 	dna = TBA_bob
 	female = yes
@@ -1184,6 +1250,7 @@ TBA_bob = {
 }
 
 TBA_bob_father = {
+
 	name = tba_bob_father_name
 	dna = TBA_bob
 	dynasty = dynasty_tbaparkhurst 
@@ -1214,6 +1281,7 @@ TBA_bob_father = {
 
 
 TBA_ludwig = {
+
 	name = "Ludwig"
 	dna = TBA_hugh
 	mother = 7374
@@ -1262,6 +1330,7 @@ TBA_ludwig = {
 
 
 TBA_eideard_macadder = {
+
 	name = tba_eideard_macadder_name
 	dna = TBA_macadder
 	dynasty = dynasty_tbamacadder
@@ -1441,13 +1510,13 @@ TBA_infanta = {
 	1141.5.18 = {
 		birth = yes
 	}
+
 	1190.6.10 = {
 		death = yes
 	}
 }
 
-# HENRY IN THE NAUGHTY CORNER
-# Henry II
+# HENRY IN THE NAUGHTY CORNER (Henry II)
 204500 = {
 
 	name = "Henry" 
