@@ -86,9 +86,9 @@ trait_tba_blackadder_trait: "Blackadder"
 trait_tba_blackadder_trait_desc: "Characters appearing in the Blackadder Series."
 
 # Music
-tba_soundtrack_list: "The Black Adder Soundtrack"
 tba_s1: "The Black Adder S1 Theme"
 tba_backandforth: "Blackadder: Back and Forth Theme"
+tba_soundtrack_list: "The Black Adder Soundtrack"
 
 # Deaths
 death_sacrificed: "Sacrificed"
