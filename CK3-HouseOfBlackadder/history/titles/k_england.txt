@@ -32,7 +32,7 @@ k_england = {
 		holder = 106 # Aethelraed the Unready
 	}
 	1013.12.25 = {
-		holder = 101505 # Svend Tvesk�gg
+		holder = 101505 # Svend Tveskägg
 	}
 	1014.2.3 = {
 		holder = 106 # Aethelraed the Unready
@@ -126,6 +126,9 @@ c_middlesex = {
 	758.1.1 = {
 		holder = 205265
 	}
+	#802.1.1 = {
+	#	liege = "k_england"
+	#}
 	802.1.1 = {
 		holder = 33354 # Ecgberht
 	}
@@ -169,7 +172,7 @@ c_middlesex = {
 		holder = 106 # Aethelraed the Unready
 	}
 	1013.12.25 = {
-		holder = 101505 # Svend Tvesk�gg
+		holder = 101505 # Svend Tveskägg
 	}
 	1014.2.3 = {
 		holder = 106 # Aethelraed the Unready
@@ -241,6 +244,7 @@ c_essex = {
 		holder = 205265
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.1 = {
@@ -305,6 +309,7 @@ c_bedford = {
 	1178.1.1 = { change_development_level = 14 }
 
 	745.1.1 = {
+		#liege = "d_hereford"
 		holder = 205104
 	}
 	767.1.1 = {
@@ -369,6 +374,9 @@ c_hertfordshire = {
 	758.1.1 = {
 		holder = 205265
 	}
+	#802.1.1 = {
+	#	liege = "k_england"
+	#}
 	802.1.1 = {
 		holder = 33354 # Ecgberht
 	}
@@ -412,7 +420,7 @@ c_hertfordshire = {
 		holder = 106 # Aethelraed the Unready
 	}
 	1013.12.25 = {
-		holder = 101505 # Svend Tvesk�gg
+		holder = 101505 # Svend Tveskägg
 	}
 	1014.2.3 = {
 		holder = 106 # Aethelraed the Unready
@@ -481,6 +489,9 @@ c_buckinghamshire = {
 	758.1.1 = {
 		holder = 205265
 	}
+	#802.1.1 = {
+	#	liege = "k_england"
+	#}
 	802.1.1 = {
 		holder = 33354 # Ecgberht
 	}
@@ -524,7 +535,7 @@ c_buckinghamshire = {
 		holder = 106 # Aethelraed the Unready
 	}
 	1013.12.25 = {
-		holder = 101505 # Svend Tvesk�gg
+		holder = 101505 # Svend Tveskägg
 	}
 	1014.2.3 = {
 		holder = 106 # Aethelraed the Unready
@@ -855,6 +866,9 @@ d_lancaster = {
 	535.1.1 = {
 		holder = 159952 #Cynfarch Oer
 	}
+	#560.1.1 = {
+	#	holder = 159034 #Elidyr Llydanwyn
+	#}
 	565.1.1 = {
 		holder = 159033 #Llywarch Hen
 	}
@@ -1131,6 +1145,7 @@ c_derby = {
 		holder = 204694 #William de Ferrers
 	}
 	1247.1.1 = {
+		#liege = d_lancaster
 		holder = 7429 #William de Ferrers
 	}
 	1254.3.28 = {
@@ -1234,13 +1249,13 @@ c_north_riding = {
 		holder = 5660 #Morcar
 	}
 	1070.1.1 = {
-		holder = 356 #Alain 'Rufus' de Penthi�vre
+		holder = 356 #Alain 'Rufus' de Penthièvre
 	}
 	1089.1.1 = {
 		holder = 10047 #Alain Niger
 	}
 	1093.1.1 = {
-		holder = 205744 #�tienne I de Penthi�vre
+		holder = 205744 #Étienne I de Penthièvre
 	}
 	1070.5.23 = {
 		holder = york_archbishop_5 # Thomas
@@ -1265,7 +1280,7 @@ c_north_riding = {
 		holder = york_archbishop_1 # William FitzHerbert
 	}
 	1154.6.8 = {
-		holder = pont_leveque_1 # Roger de Pont L'�v�que, archbishop of York
+		holder = pont_leveque_1 # Roger de Pont L'Évêque, archbishop of York
 		liege = k_england
 	}
 	1189.7.6 = {
@@ -1314,7 +1329,7 @@ c_east_riding = {
 		holder = 5660 #Morcar
 	}
 	1070.1.1 = {
-		holder = 356 #Alain 'Rufus' de Penthi�vre
+		holder = 356 #Alain 'Rufus' de Penthièvre
 	}
 	1087.1.1 = {
 		holder = 391 # Eudes de Blois
@@ -1375,13 +1390,13 @@ c_west_riding = {
 		holder = 5660 #Morcar
 	}
 	1070.1.1 = {
-		holder = 356 #Alain 'Rufus' de Penthi�vre
+		holder = 356 #Alain 'Rufus' de Penthièvre
 	}
 	1089.1.1 = {
 		holder = 10047 #Alain Niger
 	}
 	1093.1.1 = {
-		holder = 205744 #�tienne I de Penthi�vre
+		holder = 205744 #Étienne I de Penthièvre
 	}
 	1093.8.24 = {
 		holder = 146 #William II Rufus
@@ -1393,7 +1408,7 @@ c_west_riding = {
 		holder = 205851 #Stephen
 	}
 	1136.4.21 = {
-		holder = 205751 #Alain de Penthi�vre
+		holder = 205751 #Alain de Penthièvre
 	}
 	1146.1.1 = {
 		holder = 205851 #Stephen
@@ -1437,10 +1452,10 @@ c_lincolnshire = {
 		liege = "d_hereford"
 	}
 	839.1.1 = {
-		holder = 306018 #�thelred Mucel
+		holder = 306018 #Æthelred Mucel
 	}
 	879.1.1 = {
-		holder = 306021 #�thelwulf Mucel
+		holder = 306021 #Æthelwulf Mucel
 	}
 	1055.1.1 = {
 		liege = "d_york"
@@ -1871,13 +1886,13 @@ c_nottinghamshire = {
 		holder = 205072
 	}
 	839.1.1 = {
-		holder = 306018 #�thelred Mucel
+		holder = 306018 #Æthelred Mucel
 	}
 	852.1.1 = {
 		liege = "d_hereford"
 	}
 	879.1.1 = {
-		holder = 306021 #�thelwulf Mucel
+		holder = 306021 #Æthelwulf Mucel
 	}
 	1066.1.1 = {
 		liege = "k_england"
@@ -2239,6 +2254,9 @@ c_hereford = {
 	1052.1.1 = {
 		holder = 40418
 	}
+	#1057.1.1 = {
+	#	liege = "d_lancaster"
+	#}
 	1057.1.5 = {
 		holder = 5644 #Eadwin
 	}
@@ -2335,6 +2353,7 @@ c_gloucestershire = {
 		holder = 205128
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.1 = {
@@ -2409,6 +2428,7 @@ c_wiltshire = {
 		holder = 205180
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.5 = {
@@ -2436,7 +2456,7 @@ c_wiltshire = {
 		holder = 204532 #Ela of Salisbury
 	}
 	1261.1.1 = {
-		holder = 454041 #Margaret Longesp�e
+		holder = 454041 #Margaret Longespée
 	}
 	1310.1.1 = {
 		holder = 454023 #Alice de Lacy
@@ -2451,12 +2471,14 @@ c_oxfordshire = {
 	1178.1.1 = { change_development_level = 15 }
 
 	745.1.1 = {
+		#liege = "d_hereford"
 		holder = 205104
 	}
 	767.1.1 = {
 		holder = 205105
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.5 = {
@@ -2508,12 +2530,14 @@ c_berkshire = {
 	
 	
 	745.1.1 = {
+		#liege = "d_hereford"
 		holder = 205104
 	}
 	767.1.1 = {
 		holder = 205105
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.5 = {
@@ -2589,6 +2613,9 @@ d_canterbury = {
 	725.1.1 = {
 		holder = 205045
 	}
+	#762.1.1 = {
+	#	holder = 205047
+	#}
 	763.1.1 = {
 		holder = 205048
 	}
@@ -2648,7 +2675,9 @@ c_kent = {
 	725.1.1 = {
 		holder = 205045
 	}
-
+	#762.1.1 = {
+	#	holder = 205047
+	#}
 	763.1.1 = {
 		holder = 205048
 	}
@@ -2815,7 +2844,7 @@ b_canterbury = {
 		holder = 180690 # Eadsige
 	}
 	1050.10.29 = {
-		holder = 180691 # Robert of Jumi�ges
+		holder = 180691 # Robert of Jumièges
 	}
 	1052.9.1 = {
 		holder = 5604 # Stigand
@@ -2887,6 +2916,7 @@ c_surrey = {
 		holder = 205267
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.1 = {
@@ -2924,6 +2954,7 @@ c_sussex = {
 		holder = 205268
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.1 = {
@@ -3013,6 +3044,7 @@ c_hampton = {
 		holder = 205180
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1066.1.5 = {
@@ -3082,6 +3114,7 @@ c_isle_of_wight = {
 		holder = 205180
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 33358
 	}
 	1065.12.10 = {
@@ -3209,6 +3242,9 @@ c_somerset = {
 	1066.10.14 = {
 		holder = 140 # William the Conqueror
 	}
+	1155.1.1 = {
+		holder = mohun_1 # William de Mohun (in his capacity as a premier baron of Somerset, not having inherited his father's now-dormant earldom)
+	}
 	1187.1.1 = {
 		holder = 204514 #John
 	}
@@ -3287,6 +3323,12 @@ d_cornwall = {
 	700.1.1 = {
 		holder = 159748 # Hoel
 	}
+	#710.1.1 = {
+	#	holder = 159449 #Gereint
+	#}
+	#715.1.1 = {
+	#	holder = 159450 #Ithael Eiddyn
+	#}
 	730.1.1 = {
 		holder = 159451 #Dyfnwal Boifunall
 	}
@@ -3390,6 +3432,12 @@ c_devon = {
 	700.1.1 = {
 		holder = 159748 # Hoel
 	}
+	#710.1.1 = {
+	#	holder = 159449 #Gereint
+	#}
+	#715.1.1 = {
+	#	holder = 159450 #Ithael Eiddyn
+	#}
 	730.1.1 = {
 		holder = 159451 #Dyfnwal Boifunall
 	}
@@ -3415,6 +3463,7 @@ c_devon = {
 		holder = 159747 #Ithel II
 	}
 	865.1.1 = {
+		#liege = "k_england"
 		holder = 159458 # Donyarth/Dumnarth/Dyfnarth of Cornwall
 	}
 	875.1.1 = {
@@ -3515,6 +3564,12 @@ c_cornwall = {
 	700.1.1 = {
 		holder = 159748 # Hoel
 	}
+	#710.1.1 = {
+	#	holder = 159449 #Gereint
+	#}
+	#715.1.1 = {
+	#	holder = 159450 #Ithael Eiddyn
+	#}
 	730.1.1 = {
 		holder = 159451 #Dyfnwal Boifunall
 	}
@@ -3543,6 +3598,7 @@ c_cornwall = {
 		holder = 159458 # Donyarth/Dumnarth/Dyfnarth of Cornwall
 	}
 	875.1.1 = {
+		#liege = "k_england"
 		holder = 159459 # Eluid
 	}
 	889.1.1 = {
@@ -3575,7 +3631,7 @@ c_cornwall = {
 		holder = 161281 #Kadoc of Cornwall
 	}
 	1071.1.1 = {
-		holder = 354 #Brian of Penthi�vre
+		holder = 354 #Brian of Penthièvre
 	}
 	1072.1.1 = {
 		holder = 150 #Robert, Count of Mortain
@@ -3584,7 +3640,7 @@ c_cornwall = {
 		holder = 158 #William de Mortain
 	}
 	1140.1.1 = {
-		holder = 205751 #Alain de Penthi�vre
+		holder = 205751 #Alain de Penthièvre
 	}
 	1141.1.1 = {
 		holder = 204571 #Reginald de Dunstanville

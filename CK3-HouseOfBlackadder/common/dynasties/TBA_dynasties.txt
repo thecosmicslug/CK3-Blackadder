@@ -25,6 +25,7 @@ dynasty_tbaparkhurst = {
 
 dynasty_tbamelchett = {
 	name = "dynn_tbamelchett"
+	culture = "norman"
 	motto = "dynn_motto_tbamelchett"
 }
 

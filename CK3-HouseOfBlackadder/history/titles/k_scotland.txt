@@ -309,8 +309,6 @@ d_albany = {
 	668.1.1 = {
 		holder = 0
 	}
-	#TODO
-	#REMOVE FOR RELEASE
 	#Here to fix mapmode
 	1058.1.1 = {
 		holder = 984 # Malcolm Canmore
@@ -1906,6 +1904,9 @@ d_western_isles = {
 	696.1.1 = {
 		holder = 166484
 	}
+	#697.1.1 = {
+	#	holder = 83581
+	#}
 	697.7.1 = {
 		holder = 166485
 	}
@@ -2114,6 +2115,9 @@ c_inner_hebrides = {
 	696.1.1 = {
 		holder = 166484
 	}
+	#697.1.1 = {
+	#	holder = 83581
+	#}
 	697.7.1 = {
 		holder = 166485
 	}
@@ -2314,6 +2318,9 @@ c_outer_hebrides = {
 	696.1.1 = {
 		holder = 166484
 	}
+	#697.1.1 = {
+	#	holder = 83581
+	#}
 	697.7.1 = {
 		holder = 166485
 	}
@@ -2512,6 +2519,9 @@ c_argyll = {
 	696.1.1 = {
 		holder = 166484
 	}
+	#697.1.1 = {
+	#	holder = 83581
+	#}
 	697.7.1 = {
 		holder = 166485
 	}
@@ -3061,7 +3071,7 @@ d_moray = {
 		holder = 202973 #Gofraid mac Uilleim
 	}
 	1213.1.1 = {
-		holder = 202974 #Domnall B�n mac Uilleim
+		holder = 202974 #Domnall mac Uilleim
 	}
 	1215.6.15 = {
 		holder = 6900 #Alexander II
@@ -3160,22 +3170,22 @@ c_moray = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
-		holder = 5998 #Findl�ech mac Ruaidri
+		holder = 5998 #Findlech mac Ruaidri
 	}
 	1020.7.1 = {
-		holder = 83587 #M�el Coluim mac Ma�l Brigte
+		holder = 83587 #Mel Coluim mac Mal Brigte
 	}
 	1029.7.1 = {
-		holder = 6002 #Gille-Comg�in mac Ma�l-Brigte
+		holder = 6002 #Gille-Comgin mac Mal-Brigte
 	}
 	1032.7.1 = {
-		holder = 5996 #Mac Bethad mac Findla�ch
+		holder = 5996 #Mac Bethad mac Findlach
 	}
 	1040.1.1 = {
-		holder = 6006 #Lulach mac Gille-Comg�in
+		holder = 6006 #Lulach mac Gille-Comgin
 	}
 	1058.1.2 = {
-		holder = 6008 #M�el-Snechtai mac Lulaigh
+		holder = 6008 #Mel-Snechtai mac Lulaigh
 	}
 	1085.1.1 = {
 		holder = 6012 #Aengus mac ingine Lulaigh
@@ -3190,7 +3200,7 @@ c_moray = {
 		holder = 202973 #Gofraid mac Uilleim
 	}
 	1213.1.1 = {
-		holder = 202974 #Domnall B�n mac Uilleim
+		holder = 202974 #Domnall mac Uilleim
 	}
 	1215.6.15 = {
 		holder = 203005 #William Comyn
@@ -3235,25 +3245,25 @@ c_ross = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	1005.7.1 = {
-		holder = 5998 #Findl�ech mac Ruaidri
+		holder = 5998 #Findlech mac Ruaidri
 	}
 	1020.7.1 = {
-		holder = 83587 #M�el Coluim mac Ma�l Brigte
+		holder = 83587 #Mel Coluim mac Mal Brigte
 	}
 	1029.7.1 = {
-		holder = 6002 #Gille-Comg�in mac Ma�l-Brigte
+		holder = 6002 #Gille-Comgin mac Mal-Brigte
 	}
 	1032.7.1 = {
-		holder = 5996 #Mac Bethad mac Findla�ch
+		holder = 5996 #Mac Bethad mac Findlach
 	}
 	1040.1.1 = {
-		holder = 6006 #Lulach mac Gille-Comg�in
+		holder = 6006 #Lulach mac Gille-Comgin
 	}
 	1058.1.2 = {
-		holder = 6008 #M�el-Snechtai mac Lulaigh
+		holder = 6008 #Mel-Snechtai mac Lulaigh
 	}
 	1085.1.1 = {
-		holder = 6014 #M�el-Coluim mac ingine Lulaigh
+		holder = 6014 #Mel-Coluim mac ingine Lulaigh
 	}
 	1116.7.1 = {
 		holder = 83588 #Aed of the Macheths
@@ -3262,7 +3272,7 @@ c_ross = {
 		liege = "k_scotland"
 	}
 	1129.7.1 = {
-		holder = 83589 #M�el-Coluim Macheth
+		holder = 83589 #Mel-Coluim Macheth
 	}
 	1168.10.23 = {
 		holder = 202971 # Domnall mac Uilleim
