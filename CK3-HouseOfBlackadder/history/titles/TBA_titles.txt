@@ -122,11 +122,10 @@ d_laamp_indestructible = {
 		}
 	}
 }
-	
-	
+		
 #tiger-ignore(key=duplicate-item)
 c_lennox = { 
-	1060.1.1 = { 
+	1066.1.1 = { 
 		holder = TBA_chiswick_blackadder
 	}
 	1075.12.25 = { 

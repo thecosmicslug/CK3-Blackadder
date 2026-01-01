@@ -341,7 +341,7 @@ TBA_chiswick_blackadder = {
 		give_nickname = nick_the_insane
 	}
 	
-	1061.12.25 = {
+	1066.12.25 = {
 		death = {death_reason = death_old_age }
 	}
 }

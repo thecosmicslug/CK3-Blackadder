@@ -295,7 +295,6 @@
 	}
 }
 
-
 d_albany = {
 	555.1.1 = {
 		holder = 166542
@@ -486,7 +485,6 @@ c_gowrie = {
 	}
 }
 
-
 c_fife = {
 	210.1.1 = {
 		liege = "k_scotland"
@@ -661,7 +659,6 @@ c_fife = {
 		holder = 453010
 	}
 }
-
 
 c_strathearn = {
 	210.1.1 = {
@@ -839,7 +836,6 @@ c_strathearn = {
 	}
 }
 
-
 c_atholl = {
 	760.1.1 = {
 		liege = "d_moray"
@@ -900,7 +896,6 @@ c_atholl = {
 		holder = 453500 # David II of Scotland
 	}
 }
-
 
 c_angus = {
 	695.1.1 = {
@@ -1043,7 +1038,6 @@ c_angus = {
 	}
 
 }
-
 
 c_mearns = {
 	867.1.1 = { change_development_level = 4 }
@@ -1194,7 +1188,6 @@ c_mearns = {
 
 }
 
-
 d_the_isles = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 6 }
@@ -1253,7 +1246,6 @@ d_the_isles = {
 		holder = 220021 # Gudrod Crovan
 	}
 }
-
 
 c_isle_of_man = {
 	431.1.1 = {
@@ -1382,7 +1374,6 @@ c_isle_of_man = {
 	}
 
 }
-
 
 d_galloway = {
 	355.1.1 = {
@@ -1513,7 +1504,6 @@ d_galloway = {
 	}
 }
 
-
 c_galloway = {
 	765.1.1 = {
 		liege = "d_northumberland"
@@ -1567,7 +1557,6 @@ c_galloway = {
 		holder = 453500
 	}
 }
-
 
 c_carrick = {
 	765.1.1 = {
@@ -1636,7 +1625,6 @@ c_carrick = {
 		holder = 453518
 	}
 }
-
 
 c_ayrshire = {
 	765.1.1 = {
@@ -1708,7 +1696,6 @@ c_ayrshire = {
 	
 
 }
-
 
 c_annandale = {
 	765.1.1 = {
@@ -2261,7 +2248,6 @@ c_inner_hebrides = {
 	}
 }
 
-
 c_outer_hebrides = {
 	
 	
@@ -2651,7 +2637,6 @@ c_argyll = {
 	}
 }
 
-
 d_lothian = {
 	270.1.1 = {
 		holder = 159007 #Tegid
@@ -2704,7 +2689,6 @@ d_lothian = {
 	}
 
 }
-
 
 c_lothian = {
 	867.1.1 = { change_development_level = 4 }
@@ -2759,7 +2743,6 @@ c_lothian = {
 	}
 }
 
-
 c_dunbar = {
 	867.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 10 }
@@ -2804,7 +2787,6 @@ c_dunbar = {
 	}
 
 }
-
 
 c_teviotdale = {
 	765.1.1 = {
@@ -2853,7 +2835,6 @@ c_teviotdale = {
 
 }
 
-
 c_linlithgowshire = {
 	858.1.1 = {
 		holder = 183528
@@ -2872,7 +2853,6 @@ c_linlithgowshire = {
 		holder = 202999 # William
 	}
 }
-
 
 c_lanarkshire = {
 	765.1.1 = {
@@ -2916,20 +2896,17 @@ c_lanarkshire = {
 
 }
 
-
 #b_cadyou = {
 #	1066.1.1 = {
 #		holder = 82001
 #	}
 #}
 
-
 #b_biggar = {
 #	1066.1.1 = {
 #		holder = 82001
 #	}
 #}
-
 
 d_moray = {
 	867.1.1 = { change_development_level = 2 }
@@ -3093,7 +3070,6 @@ d_moray = {
 	}
 }
 
-
 c_moray = {
 	517.1.1 = {
 		holder = 166543
@@ -3231,7 +3207,6 @@ c_moray = {
 	}
 }
 
-
 c_ross = {
 	760.1.1 = {
 		liege = "d_moray"
@@ -3294,7 +3269,6 @@ c_ross = {
 	}
 }
 
-
 c_buchan = {
 	760.1.1 = {
 		liege = "d_moray"
@@ -3341,7 +3315,6 @@ c_buchan = {
 		holder = 453500
 	}
 }
-
 
 c_sutherland = {
 	
@@ -3410,7 +3383,6 @@ c_sutherland = {
 
 }
 
-
 c_caithness = {
 	760.1.1 = {
 		liege = "d_moray"
@@ -3469,7 +3441,6 @@ c_caithness = {
 		holder = 450820
 	}
 }
-
 
 c_inverness = {
 	
@@ -3611,4 +3582,3 @@ c_inverness = {
 	
 
 }
-
