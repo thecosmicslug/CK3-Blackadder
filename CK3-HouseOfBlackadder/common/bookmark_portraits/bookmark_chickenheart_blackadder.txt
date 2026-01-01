@@ -5,7 +5,8 @@ bookmark_chickenheart_blackadder={
 	id=31086
 	random_seed=90943944
 	age=0.230000
-	genes={ 		hair_color={ 3 236 3 236 }
+	genes={ 		
+		hair_color={ 3 236 3 236 }
  		skin_color={ 119 18 71 102 }
  		eye_color={ 59 164 242 160 }
  		gene_chin_forward={ "chin_forward_neg" 101 "chin_forward_neg" 125 }

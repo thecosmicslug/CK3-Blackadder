@@ -1523,6 +1523,7 @@ TBA_infanta = {
 	dna = TBA_brian_blessed
 	dynasty_house = house_plantagenet
 	culture = norman
+	faith = catholic
 
 	1133.3.5 = {
 		birth = "1133.3.5"

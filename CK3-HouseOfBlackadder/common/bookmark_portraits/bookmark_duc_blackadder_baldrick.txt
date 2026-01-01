@@ -5,7 +5,8 @@ bookmark_duc_blackadder_baldrick={
 	id=19450
 	random_seed=205428431
 	age=0.280000
-	genes={ 		hair_color={ 126 227 102 106 }
+	genes={ 		
+		hair_color={ 126 227 102 106 }
  		skin_color={ 116 102 116 102 }
  		eye_color={ 55 232 122 168 }
  		gene_chin_forward={ "chin_forward_pos" 141 "chin_forward_pos" 135 }

@@ -5,7 +5,8 @@ bookmark_chickenheart_baldrick={
 	id=29915
 	random_seed=2904161640
 	age=0.320000
-	genes={ 		hair_color={ 126 227 102 106 }
+	genes={ 		
+		hair_color={ 126 227 102 106 }
  		skin_color={ 116 102 116 102 }
  		eye_color={ 55 232 122 168 }
  		gene_chin_forward={ "chin_forward_pos" 141 "chin_forward_pos" 135 }

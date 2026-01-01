@@ -5,7 +5,8 @@ bookmark_chickenheart_ludwig={
 	id=31406
 	random_seed=916736383
 	age=0.190000
-	genes={ 		hair_color={ 40 78 225 167 }
+	genes={ 		
+		hair_color={ 40 78 225 167 }
  		skin_color={ 128 71 120 82 }
  		eye_color={ 217 88 224 141 }
  		gene_chin_forward={ "chin_forward_pos" 176 "chin_forward_pos" 152 }

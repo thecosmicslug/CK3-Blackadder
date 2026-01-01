@@ -5,7 +5,8 @@ bookmark_chickenheart_flashheart={
 	id=31319
 	random_seed=3313031546
 	age=0.200000
-	genes={ 		hair_color={ 59 18 92 60 }
+	genes={ 		
+		hair_color={ 59 18 92 60 }
  		skin_color={ 118 63 118 63 }
  		eye_color={ 221 89 227 146 }
  		gene_chin_forward={ "chin_forward_pos" 107 "chin_forward_pos" 107 }

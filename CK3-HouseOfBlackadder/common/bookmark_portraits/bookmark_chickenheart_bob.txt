@@ -5,7 +5,8 @@ bookmark_chickenheart_bob={
 	id=31712
 	random_seed=2249644281
 	age=0.180000
-	genes={ 		hair_color={ 52 78 119 250 }
+	genes={ 		
+		hair_color={ 52 78 119 250 }
  		skin_color={ 79 36 122 79 }
  		eye_color={ 234 48 189 194 }
  		gene_chin_forward={ "chin_forward_neg" 115 "chin_forward_neg" 123 }

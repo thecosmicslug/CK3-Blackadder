@@ -5,7 +5,8 @@ bookmark_chickenheart_henry={
 	id=28573
 	random_seed=3005349078
 	age=0.450000
-	genes={ 		hair_color={ 181 189 61 232 }
+	genes={ 		
+		hair_color={ 181 189 61 232 }
  		skin_color={ 0 50 116 84 }
  		eye_color={ 65 211 255 172 }
  		gene_chin_forward={ "chin_forward_pos" 165 "chin_forward_pos" 213 }

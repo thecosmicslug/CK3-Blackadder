@@ -5,7 +5,8 @@ bookmark_duc_blackadder_blackadder={
 	id=19027
 	random_seed=3067688434
 	age=0.320000
-	genes={ 		hair_color={ 3 236 3 236 }
+	genes={ 		
+		hair_color={ 3 236 3 236 }
  		skin_color={ 119 18 71 102 }
  		eye_color={ 59 164 242 160 }
  		gene_chin_forward={ "chin_forward_neg" 101 "chin_forward_neg" 125 }
